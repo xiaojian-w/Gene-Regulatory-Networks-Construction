@@ -41,7 +41,7 @@
 
 ### Structure Design
 
-
+![enter image description here](https://www.uml-diagrams.org/composite-structure-diagrams/composite-internal-structure-diagram-elements.png)
 ###  Class Structure Design
 
 ### Work flow design
@@ -76,5 +76,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjY5ODQ0MSwxOTc0MDM5MzMxXX0=
+eyJoaXN0b3J5IjpbLTE0MzAzMDU1MzMsLTg1NjY5ODQ0MSwxOT
+c0MDM5MzMxXX0=
 -->
