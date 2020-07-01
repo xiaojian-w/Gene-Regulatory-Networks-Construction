@@ -56,27 +56,21 @@ Breif introduction to the algorithm
 
 ```mermaid
 classDiagram
-	Animal <|-- Duck
-	Animal <|-- Fish
-Animal <|-- Zebra
-Animal : +int age
-Animal : +String gender
-Animal: +isMammal()
-Animal: +mate()
-class Duck{
-+String beakColor
-+swim()
-+quack()
+
 ```
 
 ## Workflow Design
 
 ```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
 ```
 
 ## Style & Convention
@@ -86,7 +80,7 @@ C --> D
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjc5MTA4OSwyNjYyNTI3OCwzNDc0Mj
-MzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1
-MV19
+eyJoaXN0b3J5IjpbNzAxNTY4MTEwLDI2NjI1Mjc4LDM0NzQyMz
+M2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUx
+XX0=
 -->
