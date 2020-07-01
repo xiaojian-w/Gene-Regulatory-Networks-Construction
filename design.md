@@ -59,13 +59,21 @@ Breif introduction to the algorithm
 
 
 ```mermaid
-st->start: Problem
-sub1->subroutine: Resolve Problem
-e->end: Problem Resolved
-op1->operation: Escalate to Escalation Engineer
-op2->operation: Escalate to Management
-cond1->condition: Able to Resolve?
-cond2->condition: Able to Resolve?
+classDiagram 
+	Animal <|-- Duck 
+	Animal <|-- Fish 
+	Animal <|-- Zebra 
+	Animal : +int age 
+	Animal : +String gender 
+	Animal: +isMammal() 
+	Animal: +mate() 
+		class Duck{ 
+		+String beakColor 
+		+swim() 
+		+quack() 
+	} 
+	class Fish{ 
+		-int sizeInFeet -canEat() } class Zebra{ +bool is_wild +run() }
 ```
 
 ## Style & Convention
@@ -75,6 +83,6 @@ cond2->condition: Able to Resolve?
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE1NDE1MDgsMzQ3NDIzMzY3LDEzMz
-E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMjU4ODk5NTA2LDM0NzQyMzM2NywxMzMxND
+E4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
