@@ -37,9 +37,13 @@ Breif introduction to the algorithm
 ## Environment Requirement
 
 ### Development Environment
- - development language: R
+ - development language: R/shell
+ - development platform: 
+ - collaboration: github
+ - Test:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ
-==
+eyJoaXN0b3J5IjpbMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMT
+Y3MDQyNzM1MV19
 -->
