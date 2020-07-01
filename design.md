@@ -42,8 +42,8 @@ Breif introduction to the algorithm
  - collaboration: github
  - Test:
 
-
+# Artitecture 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMT
-Y3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbNzAxNTM4OTY0LDEzMzE0MTg0ODEsLTEzMz
+kwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
