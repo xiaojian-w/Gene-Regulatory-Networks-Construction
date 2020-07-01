@@ -58,8 +58,10 @@
 ### Function Design
 
 - xxx.r	
-```
+```r
+function test(){
 
+}
 ```
 
 ### External Interface
@@ -89,6 +91,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA3MzU3MTcsMTUxOTQ0MTc2NCwtOD
-U2Njk4NDQxLDE5NzQwMzkzMzFdfQ==
+eyJoaXN0b3J5IjpbNDU2ODkwNDg4LDE1MTk0NDE3NjQsLTg1Nj
+Y5ODQ0MSwxOTc0MDM5MzMxXX0=
 -->
