@@ -52,9 +52,9 @@ Breif introduction to the algorithm
 
 ### R programming  convention
 
-Google's R s
+Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3ODEwNzQzLDEzMzE0MTg0ODEsLTEzMz
+eyJoaXN0b3J5IjpbMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMz
 kwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
