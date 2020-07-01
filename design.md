@@ -57,7 +57,13 @@ Breif introduction to the algorithm
 
 ## Workflow Design
 
-
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
 
 ## Style & Convention
 
@@ -66,6 +72,7 @@ Breif introduction to the algorithm
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MT
-g0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTgxODMyOTQ3MiwyNjYyNTI3OCwzNDc0Mj
+MzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1
+MV19
 -->
