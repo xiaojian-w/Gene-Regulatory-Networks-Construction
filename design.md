@@ -42,8 +42,19 @@ Breif introduction to the algorithm
  - collaboration: github
  - Test:
 
-# Artitecture 
+# Architecture Design
+
+## Structure Design
+
+## Workflow Design
+
+## Style & Convention
+
+### R programming  convention
+
+Google's R s
+[http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNTM4OTY0LDEzMzE0MTg0ODEsLTEzMz
+eyJoaXN0b3J5IjpbNjg3ODEwNzQzLDEzMzE0MTg0ODEsLTEzMz
 kwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
