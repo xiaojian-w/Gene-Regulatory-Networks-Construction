@@ -1,10 +1,8 @@
-# RNA-seq Network Project Design 
+# Requirement Analysis
 
-## Requirement Analysis
+##  Functional Requirement
 
-### Functional Requirement
-
-#### Summary
+### Summary
 
 This project will contain following functions:
 - function 1
@@ -12,9 +10,9 @@ This project will contain following functions:
 - function 3
 - etc...
 
-#### Function 1
+### Function 1
 
-**Input** 
+#### Input 
 - format:
 - example
 	```r
@@ -38,7 +36,7 @@ Breif introduction to the algorithm
 
 ## Environment Requirement
 
-
+### D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjk2MTI1OV19
+eyJoaXN0b3J5IjpbLTcwMzYzNTczOV19
 -->
