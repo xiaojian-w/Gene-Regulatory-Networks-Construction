@@ -38,41 +38,34 @@
 
 ## Architecture Design
 
-<![if !supportLists]>a) <![endif]>Structure Design
+### Structure Design
 
-<![if !vml]>![Composite structure diagram overview shows elements of internal structure of structured classifier - roles, parts, connectors.](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)<![endif]>
 
-<![if !supportLists]>b) <![endif]>Class Structure Design
+###  Class Structure Design
 
-<![if !vml]>![UML class diagram example for the Abstract Factory Design Pattern.](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)<![endif]>
+### Work flow design
 
-<![if !supportLists]>c) <![endif]>Work flow design
+###  Deployment Design
 
-<![if !vml]>![Major elements of UML sequence diagram.](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)<![endif]>
+### Detailed function design
 
-<![if !supportLists]>d) <![endif]>Deployment Design
+### Revise
 
-<![if !vml]>![Specification level deployment diagram - web application deployed to Tomcat JSP server and database schemas - to database system.](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)<![endif]>
+## Development
 
-<![if !supportLists]>e) <![endif]>Detailed function design
+- Determine the convention / code style
 
-<![if !supportLists]>f) <![endif]>Revise
+- Determine which parts we can reuse / or need to rewrite
 
-<![if !supportLists]>3. <![endif]>Development
+- Distribute the task and make develop plan
 
-<![if !supportLists]>a) <![endif]>Determine the convention / code style
+- Write the guide book at the same time
 
-<![if !supportLists]>b) <![endif]>Determine which parts we can reuse / or need to rewrite
+- Revise
 
-<![if !supportLists]>c) <![endif]>Distribute the task and make develop plan
+## Test
 
-<![if !supportLists]>d) <![endif]>Write the guide book at the same time
-
-<![if !supportLists]>e) <![endif]>Revise
-
-<![if !supportLists]>4. <![endif]>Test
-
-<![if !supportLists]>a) <![endif]>Unit Test (test single function)
+### Unit Test (test single function)
 
 <![if !supportLists]>b) <![endif]>Integration Test (test workflow)
 
@@ -82,5 +75,5 @@
 
 <![if !supportLists]>6. <![endif]>Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQxNjM5OF19
+eyJoaXN0b3J5IjpbLTIxMDE3NDQ4MDFdfQ==
 -->
