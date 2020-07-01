@@ -46,8 +46,12 @@ Breif introduction to the algorithm
 
 ## Structure Design
 
-### File structures
-- directory
+### File structure
+- directory 1
+	- directory 2
+	- 
+### Class & Function Structure
+- 
 
 ## Workflow Design
 
@@ -58,6 +62,6 @@ Breif introduction to the algorithm
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY1NTgzNTYsMzQ3NDIzMzY3LDEzMz
-E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbNzMwNTc4ODE0LDM0NzQyMzM2NywxMzMxND
+E4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
