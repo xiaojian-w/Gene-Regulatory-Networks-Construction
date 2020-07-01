@@ -58,14 +58,14 @@ Breif introduction to the algorithm
 ## Workflow Design
 
 
-```flow  
-st=>start: Start  
-e=>end  
-op=>operation: My Operation  
-cond=>condition: Yes or No?  
-st->op->cond  
-cond(yes)->e  
-cond(no)->op 
+```mermaid
+st->start: Problem
+sub1->subroutine: Resolve Problem
+e->end: Problem Resolved
+op1->operation: Escalate to Escalation Engineer
+op2->operation: Escalate to Management
+cond1->condition: Able to Resolve?
+cond2->condition: Able to Resolve?
 ```
 
 ## Style & Convention
@@ -75,6 +75,6 @@ cond(no)->op
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE3OTQ3MjUsMzQ3NDIzMzY3LDEzMz
+eyJoaXN0b3J5IjpbLTE5NjE1NDE1MDgsMzQ3NDIzMzY3LDEzMz
 E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
