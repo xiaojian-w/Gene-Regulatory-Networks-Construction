@@ -55,7 +55,7 @@
 
 ### Detailed function design
 
-``` {}
+```
 ```
 
 ### Revise
@@ -84,6 +84,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU1MzQ4MiwtODU2Njk4NDQxLDE5Nz
+eyJoaXN0b3J5IjpbMTUxOTQ0MTc2NCwtODU2Njk4NDQxLDE5Nz
 QwMzkzMzFdfQ==
 -->
