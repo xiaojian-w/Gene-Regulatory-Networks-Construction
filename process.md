@@ -8,36 +8,35 @@
 - Determine Input - process – output
 - User case Modelling
 
+### Performance requirement
 
-<![if !supportLists]>b) <![endif]>Performance requirement
+- Accuracy
 
-<![if !supportLists]> i. <![endif]>Accuracy
+- Response time
 
-<![if !supportLists]> ii. <![endif]>Running / Response time
+- Data management requirement
 
-<![if !supportLists]>c) <![endif]>Data management requirement
+- Number / size / type of files need to manage
 
-<![if !supportLists]> i. <![endif]>Number / size / type of files need to manage
+- Estimate the storage requirement
 
-<![if !supportLists]> ii. <![endif]>Estimate the storage requirement
+- Trouble shooting requirement
 
-<![if !supportLists]>d) <![endif]>Trouble shooting requirement
+### Environment requirement
 
-<![if !supportLists]>e) <![endif]>Environment requirement
+- Running platform / device
 
-<![if !supportLists]> i. <![endif]>Running platform / device
+- Development platform / device
 
-<![if !supportLists]> ii. <![endif]>Development platform / device
+- Code / Document Collaboration platform
 
-<![if !supportLists]> iii. <![endif]>Code / Document Collaboration platform
+- Package tools
 
-<![if !supportLists]> iv. <![endif]>Package tools
+### Control requirement
 
-<![if !supportLists]>f) <![endif]>Control requirement
+- Determine the way to control the program
 
-<![if !supportLists]> i. <![endif]>Determine the way to control the program
-
-<![if !supportLists]>2. <![endif]>Architecture Design
+## Architecture Design
 
 <![if !supportLists]>a) <![endif]>Structure Design
 
@@ -83,5 +82,5 @@
 
 <![if !supportLists]>6. <![endif]>Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTEzMjQ3MV19
+eyJoaXN0b3J5IjpbLTE0NDQxNjM5OF19
 -->
