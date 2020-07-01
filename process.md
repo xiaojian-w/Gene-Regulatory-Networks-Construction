@@ -53,11 +53,12 @@
 
 ![enter image description here](https://www.uml-diagrams.org/deployment-diagrams/deployment-diagram-overview-specification.png)
 
-### Detailed function design
+## Detailed function design
 
+### Function Design
 
+### API Design
 
-### Revise
 
 ## Development
 
@@ -83,6 +84,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjA4MjYxNCwxNTE5NDQxNzY0LC04NT
-Y2OTg0NDEsMTk3NDAzOTMzMV19
+eyJoaXN0b3J5IjpbLTE5NzQ5MTU5MjQsMTUxOTQ0MTc2NCwtOD
+U2Njk4NDQxLDE5NzQwMzkzMzFdfQ==
 -->
