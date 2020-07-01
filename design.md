@@ -1,6 +1,8 @@
-# Requirement Analysis
+# RNA-seq Network Project Design 
 
-## Functional Requirement
+## Requirement Analysis
+
+### Functional Requirement
 
 ### Summary
 
@@ -31,7 +33,12 @@ Breif introduction to the algorithm
 		### 
 		### 
 		```
-#### Function 2
+
+### Function 2
+
+## Environment Requirement
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzk4NzY1N119
+eyJoaXN0b3J5IjpbLTE2MDA1NjQxMjNdfQ==
 -->
