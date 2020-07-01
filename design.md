@@ -58,8 +58,13 @@ Breif introduction to the algorithm
 ## Workflow Design
 
 
+``` sequence
+Alice->Bob: Hello Bob, how are you?
+```
 ```sequence  
-Alice->Bob: Hello Bob, how are you?  Note right of Bob: Bob thinks  Bob-->Alice: I am good thanks!  
+Alice->Bob: Hello Bob, how are you?  
+Note right of Bob: Bob thinks  
+Bob-->Alice: I am good thanks!  
 ```
 
 ## Style & Convention
@@ -69,6 +74,6 @@ Alice->Bob: Hello Bob, how are you?  Note right of Bob: Bob thinks  Bob-->Alice:
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MjE1NTA3LDM0NzQyMzM2NywxMzMxND
-E4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMTkxMDc3NTA5NywzNDc0MjMzNjcsMTMzMT
+QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
