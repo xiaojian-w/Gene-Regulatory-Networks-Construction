@@ -1,6 +1,4 @@
-# Project Design
-
-## Requirement Analysis
+# Requirement Analysis
 
 ### Functional Requirement
 
@@ -14,7 +12,7 @@ This project will contain following functions:
 
 #### Function 1
 
-Input 
+**Input** 
 - format:
 - example
 	```r
@@ -22,8 +20,8 @@ Input
 		### 
 		```
 	
-Process
-Output
+**Process**
+**Output**
 - format:
 - example
 	```r
@@ -32,5 +30,5 @@ Output
 		```
 #### Function 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTYwMjY2MF19
+eyJoaXN0b3J5IjpbMTc1MjU4ODE4N119
 -->
