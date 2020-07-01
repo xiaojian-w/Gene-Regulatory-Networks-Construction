@@ -58,13 +58,14 @@ Breif introduction to the algorithm
 ## Workflow Design
 
 
-``` sequence
-Alice->Bob: Hello Bob, how are you?
-```
-```sequence  
-Alice->Bob: Hello Bob, how are you?  
-Note right of Bob: Bob thinks  
-Bob-->Alice: I am good thanks!  
+```flow  
+st=>start: Start  
+e=>end  
+op=>operation: My Operation  
+cond=>condition: Yes or No?  
+st->op->cond  
+cond(yes)->e  
+cond(no)->op 
 ```
 
 ## Style & Convention
@@ -74,6 +75,6 @@ Bob-->Alice: I am good thanks!
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDc3NTA5NywzNDc0MjMzNjcsMTMzMT
-QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTE3NjE3OTQ3MjUsMzQ3NDIzMzY3LDEzMz
+E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
