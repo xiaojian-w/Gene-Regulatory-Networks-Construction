@@ -37,7 +37,9 @@ Breif introduction to the algorithm
 ## Environment Requirement
 
 ### Development Environment
+ - development language: R
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ
+==
 -->
