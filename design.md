@@ -4,7 +4,7 @@
 
 ### Functional Requirement
 
-### Summary
+#### Summary
 
 This project will contain following functions:
 - function 1
@@ -12,9 +12,9 @@ This project will contain following functions:
 - function 3
 - etc...
 
-### Function 1
+#### Function 1
 
-#### Input
+**Input** 
 - format:
 - example
 	```r
@@ -40,5 +40,5 @@ Breif introduction to the algorithm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA1NjQxMjNdfQ==
+eyJoaXN0b3J5IjpbMTgxMjk2MTI1OV19
 -->
