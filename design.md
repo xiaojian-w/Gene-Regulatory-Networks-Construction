@@ -13,9 +13,23 @@ This project will contain following functions:
 - etc...
 
 #### Function 1
-	- input 
-	- 
+- Input 
+	- format:
+	- example
+		``` r
+		### 
+		### 
+		```
+	
+- Process
+- Output
+- - format:
+	- example
+		``` r
+		### 
+		### 
+		```
 #### Function 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcyODE5OThdfQ==
+eyJoaXN0b3J5IjpbLTExODgxNTQzNjBdfQ==
 -->
