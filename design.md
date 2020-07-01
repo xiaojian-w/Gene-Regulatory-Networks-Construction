@@ -1,8 +1,8 @@
 # Requirement Analysis
 
-### Functional Requirement
+## Functional Requirement
 
-#### Summary
+### Summary
 
 This project will contain following functions:
 - function 1
@@ -10,9 +10,9 @@ This project will contain following functions:
 - function 3
 - etc...
 
-#### Function 1
+### Function 1
 
-**Input** 
+#### Input
 - format:
 - example
 	```r
@@ -20,8 +20,11 @@ This project will contain following functions:
 		### 
 		```
 	
-**Process**
-**Output**
+#### Process
+
+Breif introduction to the algorithm
+
+#### Output
 - format:
 - example
 	```r
@@ -30,5 +33,5 @@ This project will contain following functions:
 		```
 #### Function 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjU4ODE4N119
+eyJoaXN0b3J5IjpbLTcxMzk4NzY1N119
 -->
