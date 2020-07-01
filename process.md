@@ -3,13 +3,11 @@
 ## Requirement Analysis
 
 
- Function requirement
+###  Function requirement
 
-<![if !supportLists]> i. <![endif]>Determine Input - process – output
+- Determine Input - process – output
+- User case Modelling
 
-<![if !supportLists]> ii. <![endif]>User case Modelling
-
-<![if !vml]>![An example of UML use case diagram for airport check-in and security screening.](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)<![endif]>
 
 <![if !supportLists]>b) <![endif]>Performance requirement
 
@@ -85,5 +83,5 @@
 
 <![if !supportLists]>6. <![endif]>Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM4OTQ5MzNdfQ==
+eyJoaXN0b3J5IjpbLTYxMTEzMjQ3MV19
 -->
