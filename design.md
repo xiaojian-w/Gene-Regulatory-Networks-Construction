@@ -54,10 +54,6 @@ Breif introduction to the algorithm
 	- 
 ### Class & Function Structure
 
-```mermaid
-classDiagram
-
-```
 
 ## Workflow Design
 
@@ -80,7 +76,7 @@ Alice->John: Yes... John, how are you?
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNTY4MTEwLDI2NjI1Mjc4LDM0NzQyMz
+eyJoaXN0b3J5IjpbMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMz
 M2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUx
 XX0=
 -->
