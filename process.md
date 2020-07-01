@@ -55,18 +55,10 @@
 
 ![enter image description here](https://www.uml-diagrams.org/deployment-diagrams/deployment-diagram-overview-specification.png)
 
-## Detailed function design
 
-### Function Design
 
-- xxx.r	
-```r
-function test(){
+### Interface Design
 
-}
-```
-
-### External Interface
 
 
 ## Development
@@ -93,6 +85,6 @@ function test(){
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTQ0NDMxNiwxNTE5NDQxNzY0LC04NT
-Y2OTg0NDEsMTk3NDAzOTMzMV19
+eyJoaXN0b3J5IjpbLTIwMDc2Nzk2NjgsMTUxOTQ0MTc2NCwtOD
+U2Njk4NDQxLDE5NzQwMzkzMzFdfQ==
 -->
