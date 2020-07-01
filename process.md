@@ -7,6 +7,7 @@
 
 - Determine Input - process – output
 - User case Modelling
+- ![enter image description here](https://www.uml-diagrams.org/use-case-diagrams/business-use-case-diagram-elements.png)
 
 ### Performance requirement
 
@@ -75,5 +76,5 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDAzOTMzMV19
+eyJoaXN0b3J5IjpbLTg1NjY5ODQ0MSwxOTc0MDM5MzMxXX0=
 -->
