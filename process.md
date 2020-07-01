@@ -46,6 +46,8 @@
 
 ### Work flow design
 
+![enter image description here](https://www.uml-diagrams.org/sequence-diagrams/sequence-diagram-overview.png)
+
 ###  Deployment Design
 
 ### Detailed function design
@@ -76,6 +78,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAzMDU1MzMsLTg1NjY5ODQ0MSwxOT
-c0MDM5MzMxXX0=
+eyJoaXN0b3J5IjpbMTE2Nzk4ODkyOSwtODU2Njk4NDQxLDE5Nz
+QwMzkzMzFdfQ==
 -->
