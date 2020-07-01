@@ -55,8 +55,7 @@
 
 ### Detailed function design
 
-```
-```
+
 
 ### Revise
 
@@ -84,6 +83,6 @@
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTQ0MTc2NCwtODU2Njk4NDQxLDE5Nz
-QwMzkzMzFdfQ==
+eyJoaXN0b3J5IjpbMTY1NjA4MjYxNCwxNTE5NDQxNzY0LC04NT
+Y2OTg0NDEsMTk3NDAzOTMzMV19
 -->
