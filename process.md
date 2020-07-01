@@ -67,13 +67,13 @@
 
 ### Unit Test (test single function)
 
-<![if !supportLists]>b) <![endif]>Integration Test (test workflow)
+### Integration Test (test workflow)
 
-<![if !supportLists]>c) <![endif]>System Test
+### System Test
 
-<![if !supportLists]>5. <![endif]>Package the code
+### Package the code
 
-<![if !supportLists]>6. <![endif]>Refine the guide book
+### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE3NDQ4MDFdfQ==
+eyJoaXN0b3J5IjpbMTk3NDAzOTMzMV19
 -->
