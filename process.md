@@ -44,6 +44,8 @@
 ![enter image description here](https://www.uml-diagrams.org/composite-structure-diagrams/composite-internal-structure-diagram-elements.png)
 ###  Class Structure Design
 
+![enter image description here](http://blog.fens.me/wp-content/uploads/2014/06/class1.png)
+
 ### Work flow design
 
 ![enter image description here](https://www.uml-diagrams.org/sequence-diagrams/sequence-diagram-overview.png)
@@ -91,6 +93,6 @@ function test(){
 
 ### Refine the guide book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2ODkwNDg4LDE1MTk0NDE3NjQsLTg1Nj
-Y5ODQ0MSwxOTc0MDM5MzMxXX0=
+eyJoaXN0b3J5IjpbMTQyMTQ0NDMxNiwxNTE5NDQxNzY0LC04NT
+Y2OTg0NDEsMTk3NDAzOTMzMV19
 -->
