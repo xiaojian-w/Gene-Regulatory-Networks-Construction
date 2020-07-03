@@ -87,9 +87,15 @@ estimate wall time
 ### 8. Network
 
 ```
-- numberof 
+tnet network_analysis
+- number of gene
+- number of bootstraps 
 ```
- 
+
+ ```
+ tnet summary
+```
+
 
 ### Summary
 
@@ -185,9 +191,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzE3OTY4OSwxNzY1NDUzMTUzLC0xMz
-A3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0
-NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMj
-Y2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1
-ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMT
+MwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0
+NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LD
+I2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcy
+NTgxLC0xNjcwNDI3MzUxXX0=
 -->
