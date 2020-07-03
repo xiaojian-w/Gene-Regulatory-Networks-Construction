@@ -8,8 +8,11 @@
 2. Separate Network Construction Step from Preprocess Steps so as to allow the users to preprocess the data themselves;
 3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
 
-### User Input and 
-- input: 
+### User Input and Output
+
+####  Input
+
+ 
 
 ### Summary
 
@@ -105,7 +108,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNjM1MjQ3LDMxNjc4MjU5NSwtMTczMj
-Y2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEz
-MzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQyMDY5NzksMzE2NzgyNTk1LC0xNz
+MyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcs
+MTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
