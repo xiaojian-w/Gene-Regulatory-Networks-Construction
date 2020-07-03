@@ -13,7 +13,16 @@
 ####  1. Prepare Data
 - gene expression 
 - genotype data 
-- annotation ()
+- annotation (separate for gene and snp)
+
+### 2. Prepare Setting File
+
+- one file is enough
+	- preprocess gene
+	- genotype
+	- netowork
+
+### 3. 
 
 
  
@@ -112,8 +121,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI1NzYyMzIsLTYyNzg0NDQ0MSwzMT
-Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
-LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
-cwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMzg5MDIzMzUyLC02Mjc4NDQ0NDEsMzE2Nz
+gyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwz
+NDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MD
+QyNzM1MV19
 -->
