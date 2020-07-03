@@ -49,7 +49,9 @@ programm -change_settings --parameter value
 programm -show_settings  --parameter
 ```
 
-### 3. 
+### 3.  Preprocess Data
+
+
 
 
 
@@ -149,7 +151,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDg1MjExMiwxNDkxNTA0NTI2LC02Mj
+eyJoaXN0b3J5IjpbMTIyMTMwMDQ2MiwxNDkxNTA0NTI2LC02Mj
 c4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0
 NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOT
 A3MjU4MSwtMTY3MDQyNzM1MV19
