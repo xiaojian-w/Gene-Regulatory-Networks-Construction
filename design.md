@@ -79,7 +79,7 @@ tnet control_cov
 tnet cis-eQTL
 - range
 - type
-- nodes?
+- parallel?
 ```
 
 
@@ -179,8 +179,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxND
-kxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYw
-NDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMT
-QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbMTAxMTMzMTI4OSwtMTMwNzU1MzE2OSwtNj
+AxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1
+OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0Nz
+QyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3
+MzUxXX0=
 -->
