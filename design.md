@@ -73,6 +73,12 @@ tnet -preprocess_gene_exp --setting1 v1 --setting2
 tnet control_cov
 ```
 
+### 7. Cis-eQTL
+
+```bash
+tnet 
+```
+
  
 
 ### Summary
@@ -169,7 +175,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTY0MDcyLC02MDEyOTUwODcsMTQ5MT
+eyJoaXN0b3J5IjpbMTIzMzYwOTcxLC02MDEyOTUwODcsMTQ5MT
 UwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4
 NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MT
 g0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
