@@ -40,9 +40,7 @@ qtmode: 0
 
 ### 3. Set the Setting file
 
-```bash
-programm -setting **.par
-```
+
 
 ### 4. 
 
@@ -144,8 +142,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTczMTI3MTUsLTYyNzg0NDQ0MSwzMT
-Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
-LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
-cwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMTY2NzQxMzMxOCwtNjI3ODQ0NDQxLDMxNj
+c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
+MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
+A0MjczNTFdfQ==
 -->
