@@ -2,6 +2,13 @@
 
 ##  Functional Requirement
 
+### Expectation:
+
+1. Put checkpoints at each step to let the users make sure every step is correct.
+2. Separate Network Construction Step from Preprocess Steps so as to allow the users to preprocess the data themselves;
+3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
+
+
 ### Summary
 
 This project aims to streamline the process of constructing gene regulatory networks using RNA-Seq.
