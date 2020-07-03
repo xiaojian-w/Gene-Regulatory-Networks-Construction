@@ -58,6 +58,11 @@ Breif introduction to the algorithm
 ## Workflow Design
 
 ```mermaid
+classDiagram
+class Root{
+```
+
+```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
 Bob-->>John: How about you John?
@@ -65,8 +70,6 @@ Bob--x Alice: I am good thanks!
 Bob-x John: I am good thanks!
 Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
 ```
 
 ## Style & Convention
@@ -76,7 +79,7 @@ Alice->John: Yes... John, how are you?
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMz
-M2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUx
-XX0=
+eyJoaXN0b3J5IjpbLTE3OTE4MzQ3MjMsMTY0NjAyMDQ2LDI2Nj
+I1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgx
+LC0xNjcwNDI3MzUxXX0=
 -->
