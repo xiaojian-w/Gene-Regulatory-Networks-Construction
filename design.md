@@ -25,6 +25,7 @@
 .yml
 
 ```par
+filepath: ./
 genotypename: example.geno
 snpname: example.snp
 indivname: example.ind
@@ -38,10 +39,10 @@ outliersigmathresh: 6.0
 qtmode: 0
 ```
 
-### 3. Set the Setting file
+### 3. Check the Setting file
 
 ```bash
-programm -setting **.par
+programm -check_setting **.par
 ```
 
 ### 
@@ -144,8 +145,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NDg5Mzc1LC02Mjc4NDQ0NDEsMzE2Nz
-gyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwz
-NDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MD
-QyNzM1MV19
+eyJoaXN0b3J5IjpbLTQxNDYwMTg2NiwtNjI3ODQ0NDQxLDMxNj
+c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
+MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
+A0MjczNTFdfQ==
 -->
