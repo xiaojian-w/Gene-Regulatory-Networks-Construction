@@ -4,14 +4,12 @@
 
 ### Summary
 
-This project will contain following main steps to constructing gene regulatory networks using RNA-Seq.
+This project aims to streamline the process of constructing gene regulatory networks using RNA-Seq.
 
-Main steps are following:
+Main steps are as following:
 
-- function 1
-- function 2
-- function 3
-- etc...
+- Preprocessing Genotype Data
+- 
 
 ```mermaid
 graph LR; 
@@ -85,7 +83,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwODYwNzg4LDE2NDYwMjA0NiwyNjYyNT
-I3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwt
-MTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTk4MTAwNTYzNywxNjQ2MDIwNDYsMjY2Mj
+UyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEs
+LTE2NzA0MjczNTFdfQ==
 -->
