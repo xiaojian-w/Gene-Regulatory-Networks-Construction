@@ -79,8 +79,10 @@ tnet control_cov
 tnet cis-eQTL
 - range
 - type
+- number of cpu
 - parallel?
 ```
+estimate wall time
 
 
  
@@ -179,7 +181,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTMzMTI4OSwtMTMwNzU1MzE2OSwtNj
+eyJoaXN0b3J5IjpbMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNj
 AxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1
 OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0Nz
 QyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3
