@@ -26,10 +26,7 @@ Main steps are as following:
 
 ```mermaid
 graph LR; 
-
-DataManageCenter-.->B;
-
-
+id1[(Database)];
 ```
 
 ### Function 1
@@ -96,7 +93,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk3NTA0MTYsLTE3MzI2NjA0ODcsMT
+eyJoaXN0b3J5IjpbLTEwNzI0NDU1NTYsLTE3MzI2NjA0ODcsMT
 Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
 LC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
