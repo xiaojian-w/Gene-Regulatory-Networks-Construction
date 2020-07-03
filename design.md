@@ -21,6 +21,8 @@
 	- preprocess gene
 	- genotype
 	- netowork
+	
+.yml
 
 ### 3. Set the Setting file
 
@@ -126,7 +128,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NTI5NjcxLC02Mjc4NDQ0NDEsMzE2Nz
+eyJoaXN0b3J5IjpbOTkxNTE1MTY5LC02Mjc4NDQ0NDEsMzE2Nz
 gyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwz
 NDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MD
 QyNzM1MV19
