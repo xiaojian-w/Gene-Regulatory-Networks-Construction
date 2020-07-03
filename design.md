@@ -10,9 +10,12 @@
 
 ### User Input and Output
 
-####  Input
-- gene expression: 
-- genotype data
+####  1. Prepare Data
+- gene expression 
+- genotype data 
+- annotation ()
+
+
  
 
 ### Summary
@@ -109,7 +112,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3Mz
-I2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2Nywx
-MzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbLTE5NTI1NzYyMzIsLTYyNzg0NDQ0MSwzMT
+Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
+LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
+cwNDI3MzUxXX0=
 -->
