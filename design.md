@@ -9,7 +9,12 @@ This project aims to streamline the process of constructing gene regulatory netw
 Main steps are as following:
 
 - Preprocessing Genotype Data
-- 
+- Preprocessing Gene Expression Data
+- Matching Gene Expression Data with Genotype Data
+- Preprocess Genotype Data (Con't)
+- Separating SNPs based on MAF
+- Cis-eQTL Analysis
+- Network Analysis
 
 ```mermaid
 graph LR; 
@@ -83,7 +88,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTAwNTYzNywxNjQ2MDIwNDYsMjY2Mj
-UyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEs
-LTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2Nj
+I1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgx
+LC0xNjcwNDI3MzUxXX0=
 -->
