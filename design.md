@@ -24,7 +24,9 @@ Main steps are as following:
 	- Bootstrap Analysis
 	- Network Visualization
 
+### Basic Input & Output Diagram
 Input & output  process can be summarized as following:
+#### Preprocess
 ```mermaid
 graph LR;
 A-. text .-> B
@@ -94,7 +96,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTA0MTMyOCwtMTczMjY2MDQ4NywxNj
+eyJoaXN0b3J5IjpbMjExODg0OTcxNSwtMTczMjY2MDQ4NywxNj
 Q2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEs
 LTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
