@@ -24,6 +24,26 @@
 	
 .yml
 
+```par
+genotypename: example.geno
+snpname: example.snp
+indivname: example.ind
+evecoutname: example.pca.evec
+evaloutname: example.eval
+
+altnormstyle: NO
+
+numoutevec: 2
+
+numoutlieriter: 5
+
+numoutlierevec: 2
+
+outliersigmathresh: 6.0
+
+qtmode: 0
+```
+
 ### 3. Set the Setting file
 
 ```bash
@@ -128,8 +148,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxNTE1MTY5LC02Mjc4NDQ0NDEsMzE2Nz
-gyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwz
-NDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MD
-QyNzM1MV19
+eyJoaXN0b3J5IjpbLTE3NTQ1Mjk5MjMsLTYyNzg0NDQ0MSwzMT
+Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
+LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
+cwNDI3MzUxXX0=
 -->
