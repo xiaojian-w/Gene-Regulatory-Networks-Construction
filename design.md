@@ -38,9 +38,14 @@ numoutlierevec: 2
 outliersigmathresh: 6.0
 qtmode: 0
 ```
-
-show the 
+#### change settings
+```bash
+programm -changesettings --paramter value
 ```
+#### lookup settings
+```bash
+
+programm 
 ```
 
 ### 3. 
@@ -143,8 +148,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDAxNjc0MiwtNjI3ODQ0NDQxLDMxNj
-c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
-MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
-A0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMjUzMzQ4NDEsLTYyNzg0NDQ0MSwzMT
+Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
+LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
+cwNDI3MzUxXX0=
 -->
