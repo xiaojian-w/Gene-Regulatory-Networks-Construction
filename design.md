@@ -29,7 +29,7 @@ Input & output  process can be summarized as following:
 #### Preprocess
 ```mermaid
 graph LR;
-Genotype_jpt.ped.--> PreprocessingGenotypeData--> B;
+Genotype/jpt.ped--> PreprecessingGenotypeData -->B
 ```
 
 ### Function 1
@@ -96,7 +96,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDY0ODExNCwtMTczMjY2MDQ4NywxNj
-Q2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEs
-LTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2ND
+YwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwt
+MTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
