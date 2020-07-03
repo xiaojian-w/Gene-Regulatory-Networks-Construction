@@ -18,7 +18,7 @@ Main steps are as following:
 	- Common e-QTL analysis
 	- Low-Frequency Cis-eQTL Analysis
 	- Rare Cis-eQTL Analysis 
-	- 
+	-  Combined Common, Low-Frequency, and Rare eQTL Results
 - Network Analysis
 	- Network Analysis
 	- Bootstrap Analysis
@@ -96,7 +96,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NDc5MjYyLC0xNzMyNjYwNDg3LDE2ND
-YwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwt
-MTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTEwNjk3NTA0MTYsLTE3MzI2NjA0ODcsMT
+Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
+LC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
