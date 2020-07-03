@@ -67,7 +67,11 @@ tnet -preprocess_genotype --setting1 v1 --setting2
 ```bash
 tnet -preprocess_gene_exp --setting1 v1 --setting2
 ```
-###
+### 6. Control Covariates & Population Structure
+
+```bash
+
+```
 
  
 
@@ -165,8 +169,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc0NjYwOTcsLTYwMTI5NTA4NywxND
-kxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYw
-NDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMT
-QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbNzczNjExNDMxLC02MDEyOTUwODcsMTQ5MT
+UwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4
+NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MT
+g0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
