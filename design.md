@@ -39,13 +39,11 @@ outliersigmathresh: 6.0
 qtmode: 0
 ```
 
-### 3. Check the Setting file
-
-```bash
-programm -check_setting **.par
+show the 
+```
 ```
 
-### 
+### 3. 
 
 
 
@@ -145,7 +143,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDYwMTg2NiwtNjI3ODQ0NDQxLDMxNj
+eyJoaXN0b3J5IjpbLTI4MDAxNjc0MiwtNjI3ODQ0NDQxLDMxNj
 c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
 MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
 A0MjczNTFdfQ==
