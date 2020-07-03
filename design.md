@@ -30,17 +30,11 @@ snpname: example.snp
 indivname: example.ind
 evecoutname: example.pca.evec
 evaloutname: example.eval
-
 altnormstyle: NO
-
 numoutevec: 2
-
 numoutlieriter: 5
-
 numoutlierevec: 2
-
 outliersigmathresh: 6.0
-
 qtmode: 0
 ```
 
@@ -148,8 +142,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ1Mjk5MjMsLTYyNzg0NDQ0MSwzMT
-Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
-LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC0xNj
-cwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbLTI4NzEwMTM0MywtNjI3ODQ0NDQxLDMxNj
+c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
+MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
+A0MjczNTFdfQ==
 -->
