@@ -24,9 +24,10 @@ Main steps are as following:
 	- Bootstrap Analysis
 	- Network Visualization
 
+Input & output  process can be summarized as following:
 ```mermaid
-graph LR; 
-id1[(Database)];
+graph LR;
+A-. text .-> B
 ```
 
 ### Function 1
@@ -93,7 +94,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI0NDU1NTYsLTE3MzI2NjA0ODcsMT
-Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
-LC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMTM5OTA0MTMyOCwtMTczMjY2MDQ4NywxNj
+Q2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEs
+LTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
