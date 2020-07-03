@@ -57,10 +57,7 @@ Breif introduction to the algorithm
 
 ## Workflow Design
 
-```mermaid
-classDiagram
-class Root{
-```
+
 
 ```mermaid
 sequenceDiagram
@@ -79,7 +76,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE4MzQ3MjMsMTY0NjAyMDQ2LDI2Nj
+eyJoaXN0b3J5IjpbLTE5MDY1NDI2ODYsMTY0NjAyMDQ2LDI2Nj
 I1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgx
 LC0xNjcwNDI3MzUxXX0=
 -->
