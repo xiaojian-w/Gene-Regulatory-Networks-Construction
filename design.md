@@ -4,13 +4,16 @@
 
 ### Summary
 
-This project will contain following main steps to 
+This project will contain following main steps to constructing gene regulatory networks using RNA-Seq
+
 - function 1
 - function 2
 - function 3
 - etc...
 
-
+```mermaid
+graph LR; A-.->B;
+```
 
 ### Function 1
 
@@ -76,7 +79,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDc2MzUxMiwxNjQ2MDIwNDYsMjY2Mj
-UyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEs
-LTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbNTA2ODYyNzU4LDE2NDYwMjA0NiwyNjYyNT
+I3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwt
+MTY3MDQyNzM1MV19
 -->
