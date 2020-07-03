@@ -4,7 +4,7 @@
 
 ### Summary
 
-This project will contain following functions:
+This project will contain following main steps to 
 - function 1
 - function 2
 - function 3
@@ -76,7 +76,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY1NDI2ODYsMTY0NjAyMDQ2LDI2Nj
-I1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgx
-LC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbLTkxMDc2MzUxMiwxNjQ2MDIwNDYsMjY2Mj
+UyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEs
+LTE2NzA0MjczNTFdfQ==
 -->
