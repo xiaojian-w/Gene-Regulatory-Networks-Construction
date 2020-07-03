@@ -4,7 +4,9 @@
 
 ### Summary
 
-This project will contain following main steps to constructing gene regulatory networks using RNA-Seq
+This project will contain following main steps to constructing gene regulatory networks using RNA-Seq.
+
+Main steps are following:
 
 - function 1
 - function 2
@@ -12,7 +14,11 @@ This project will contain following main steps to constructing gene regulatory n
 - etc...
 
 ```mermaid
-graph LR; A-.->B;
+graph LR; 
+A-.->B;
+A-.->C;
+
+
 ```
 
 ### Function 1
@@ -79,7 +85,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2ODYyNzU4LDE2NDYwMjA0NiwyNjYyNT
+eyJoaXN0b3J5IjpbNzAwODYwNzg4LDE2NDYwMjA0NiwyNjYyNT
 I3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwt
 MTY3MDQyNzM1MV19
 -->
