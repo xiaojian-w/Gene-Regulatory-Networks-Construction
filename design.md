@@ -49,10 +49,10 @@ programm -change_settings --parameter value
 programm -show_settings  --parameter
 ```
 
-### 3.  Match genotype and geneexp
-user provide sample ids
+### 3.  Match genotype and geneexp ?
+user provide sample ids ?
 ```bash
-
+tnet geno_geneexp_match 
 ```
 
 ### 4.  Preprocess Genotype Data
@@ -163,8 +163,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NzI2NDE2LC02MDEyOTUwODcsMTQ5MT
-UwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4
-NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MT
-g0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDYwMDc0MzUsLTYwMTI5NTA4NywxND
+kxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYw
+NDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMT
+QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
