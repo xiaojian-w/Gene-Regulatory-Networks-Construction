@@ -25,6 +25,9 @@
 .yml
 
 ```par
+###
+
+###
 genotypename: example.geno
 snpname: example.snp
 indivname: example.ind
@@ -142,7 +145,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzEwMTM0MywtNjI3ODQ0NDQxLDMxNj
+eyJoaXN0b3J5IjpbMTQ3NjU5MDM1NSwtNjI3ODQ0NDQxLDMxNj
 c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
 MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
 A0MjczNTFdfQ==
