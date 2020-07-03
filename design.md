@@ -22,10 +22,8 @@ Main steps are as following:
 
 ```mermaid
 graph LR; 
+
 DataManageCenter-.->B;
-DataManageCenter-.->A;
-DataManageCenter-.->C;
-DataManageCenter-.->D;
 
 
 ```
@@ -94,7 +92,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyMTU1MDY4LC0xNzMyNjYwNDg3LDE2ND
-YwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwt
-MTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbMTY5NDMxMDQ0MywtMTczMjY2MDQ4NywxNj
+Q2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEs
+LTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
