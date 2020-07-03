@@ -79,7 +79,7 @@ tnet control_cov
 tnet cis-eQTL
 - range
 - type
-- nodes
+- nodes?
 ```
 
 
@@ -179,8 +179,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDQxNTE4MiwtNjAxMjk1MDg3LDE0OT
-E1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0
-ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxND
-E4NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxND
+kxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYw
+NDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMT
+QxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
