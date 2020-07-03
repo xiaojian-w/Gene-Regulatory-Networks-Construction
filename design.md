@@ -52,7 +52,7 @@ programm -show_settings  --parameter
 ### 3.  Preprocess Genotype Data
 
 ```bash
-programm
+tnet -preprocess_genotype --setting1 v1 --setting2
 ```
 
 ### 4. Preprocess Gene Data
@@ -155,8 +155,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTE3NjQ2OTQsMTQ5MTUwNDUyNiwtNj
-I3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIw
-NDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMz
-kwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMTc1MTE3MTM5MywxNDkxNTA0NTI2LC02Mj
+c4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0
+NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOT
+A3MjU4MSwtMTY3MDQyNzM1MV19
 -->
