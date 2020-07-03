@@ -38,6 +38,8 @@ numoutlierevec: 2
 outliersigmathresh: 6.0
 qtmode: 0
 ```
+provide default file
+
 #### change settings
 ```bash
 programm -change_settings --parameter value
@@ -147,8 +149,8 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNj
-c4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgs
-MzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLTE2Nz
-A0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMTczNDg1MjExMiwxNDkxNTA0NTI2LC02Mj
+c4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0
+NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOT
+A3MjU4MSwtMTY3MDQyNzM1MV19
 -->
