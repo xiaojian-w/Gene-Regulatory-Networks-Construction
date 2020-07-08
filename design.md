@@ -165,10 +165,9 @@ File Management -->> Interface Controller: return file status
 
 ## Style & Convention
 
-### R programming  convention
 
-Google's R style Guide:
-[http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
+R style Guide:
+[https://style.tidyverse.org/index.html](https://style.tidyverse.org/index.html)
 
 Shell Style Guide
 [https://google.github.io/styleguide/shellguide.html](https://google.github.io/styleguide/shellguide.html)
@@ -305,10 +304,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNz
-g5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3Njkx
-NywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMT
-Q5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2
-MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMz
-E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NT
+YwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3
+LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLT
+YwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2Nzgy
+NTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzND
+c0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQy
+NzM1MV19
 -->
