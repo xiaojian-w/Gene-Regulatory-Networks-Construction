@@ -176,7 +176,7 @@ Breif introduction to the algorithm
 sequenceDiagram
 User Interface ->> File Management: check input file valid or not
 File Management -->> User Interface: return file status
-User Interface ->>
+User Interface -->> Excute Function: 
 
 ```
 
@@ -197,9 +197,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTY4MzMzNCwtMTAxNDA3NjkxNywxNz
-Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
-NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
-wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
-ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3OTY5NTIxMjUsLTEwMTQwNzY5MTcsMT
+c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
+MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
+csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
+NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
