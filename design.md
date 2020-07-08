@@ -133,7 +133,7 @@ tnet network_analysis
 
 ## Basic Idea
 
-Four layers of  implementation: 
+Four main parts: 
 - Interface Controller
 	- Paramter control
 	- Check validity of user input paramters & setting files
@@ -143,10 +143,12 @@ Four layers of  implementation:
 	- Check validity of input and output files
 	- Clear 
 - Execute Function
-	- 
+	- Basic process steps
+
 ```mermaid
 sequenceDiagram
-Interface Controller ->> Interface Controller: check paramter or settings 
+Interface Controller ->> Setting Controller:
+check paramter or settings 
 Interface Controller ->> Setting Controller:
 check paramter or settings 
 Interface Controller ->> File Management: check input file valid or not
@@ -189,7 +191,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzE1MjEwNSwtMTAxNDA3NjkxNywxNz
+eyJoaXN0b3J5IjpbLTE3MzE0NzYzOCwtMTAxNDA3NjkxNywxNz
 Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
 NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
 wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
