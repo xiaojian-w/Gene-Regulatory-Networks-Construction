@@ -219,21 +219,21 @@ walltime = 4
 resetSettings -> function (){
 }
 #` get Parameter from setting file
-#` @return list object
+#` @return list object 
 getParameter -> function(setting_file_path, paramter){
 }
 #` set single parameter
 #` @return 
 setParameter -> function (parameter,value)
 #` check validity of parameter
-#` @return TRUE or FALSE
+#` @return  status=TRUE or FALSE, error_msg=''
 checkParameter -> function (paramter, value)
 ```
 
 ### File Management
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDMyODU1NywtMTczMjc4OTM3MCwzOT
+eyJoaXN0b3J5IjpbLTcxOTA3MDU0OSwtMTczMjc4OTM3MCwzOT
 cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
 MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
 YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
