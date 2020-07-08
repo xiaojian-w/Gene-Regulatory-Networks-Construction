@@ -215,15 +215,15 @@ walltime = 4
 ### Setting Controller
 
 ``` r
-function resetSettings()
-function setParamter()
-function paramtercheck()
+resetSettings -> function ()
+setParamter -> function (parameter,value)
+paramtercheck -> function (paramter, )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODI2MTEwMCwzOTcwNDMwMDksLTIwOT
-c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
-MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
-wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
-Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC
-0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbLTE0ODYwODk5MTUsMzk3MDQzMDA5LC0yMD
+k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
+NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0ND
+EsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYy
+NTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MS
+wtMTY3MDQyNzM1MV19
 -->
