@@ -224,7 +224,7 @@ getParameter -> function(setting_file_path, paramter){
 }
 #` set single parameter
 #` @return 
-setParameter -> function (parameter,value)
+setParameter -> function (section, parameter,value)
 #` check validity of parameter
 #` @return  status=TRUE or FALSE, error_msg=''
 checkParameter -> function (paramter, value)
@@ -235,13 +235,16 @@ checkParameter -> function (paramter, value)
 ```r
 # check validity of file
 checkFile -> function(type, path)
-
+# delete all working files
+clearWorkDirectory -> function()
 ```
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwNTg3NzMsLTE3MzI3ODkzNzAsMzk3MD
-QzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMx
-NTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC
-02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYw
-MjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMT
-MzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTEwNzM1OTYyNjksLTE3MzI3ODkzNzAsMz
+k3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0
+NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NT
+I2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2
+NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MS
+wtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
