@@ -174,7 +174,7 @@ Google's R style Guide:
 
 ### Setting Files
 
-Use 
+Use `.conf` file syntax for user settings
 
 ```bash
 ## 
@@ -187,7 +187,7 @@ Speed = 1
 Speed = 2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4MzA3ODM0LDM5NzA0MzAwOSwtMjA5Nz
+eyJoaXN0b3J5IjpbNTg0ODgyMzU0LDM5NzA0MzAwOSwtMjA5Nz
 Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
 MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
 MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
