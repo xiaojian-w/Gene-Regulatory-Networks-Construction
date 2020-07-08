@@ -137,10 +137,12 @@ Three layers of  implementation:
 - Interface Controller
 	- Check validity of user input paramters & setting files
 	- Implement functions in file management to check validity of input and output files
-	- Implement execute functions in 
+	- Implement execute functions 
 - File Management
-	- check validity of input and output files
+	- Check validity of input and output files
+	- 
 - Execute Function
+	- 
 ```mermaid
 sequenceDiagram
 Interface Controller ->> Interface Controller: check paramter or settings 
@@ -184,7 +186,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODY0ODIxLC0xMDE0MDc2OTE3LDE3Nj
+eyJoaXN0b3J5IjpbNTYxODk3MTQ0LC0xMDE0MDc2OTE3LDE3Nj
 U0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0
 NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LD
 E2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4
