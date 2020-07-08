@@ -138,9 +138,13 @@ Four main parts:
 	- Implement functions in Setting Controller to check validity of input paramters
 	- Implement functions in file management to check validity of input and output files
 	- Implement execute functions 
+- Setting Controller
+	- Read setting file
+	- Reset parameter
+	- 
 - File Management
 	- Check validity of input and output files
-	- Clear 
+	- Clear / reset work directory
 - Execute Function
 
 ```mermaid
@@ -187,7 +191,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjIwNjE3NCwtMTAxNDA3NjkxNywxNz
+eyJoaXN0b3J5IjpbMjAxMDU3MjQwMiwtMTAxNDA3NjkxNywxNz
 Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
 NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
 wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
