@@ -143,7 +143,7 @@ Four main parts:
 	- Reset parameter
 - File Management
 	- Check validity of input and output files
-	- Clear / reset work directory
+	- Clear / reset working directory
 	- Show file status
 - Execute Function
 
@@ -161,28 +161,6 @@ Interface Controller ->> File Management: check output file valid or not
 File Management -->> Interface Controller: return file status
 ```
 
-## Structure Design
-
-### File structure
-- directory 1
-	- directory 2
-	- 
-### Class & Function Structure
-
-
-## Workflow Design
-
-
-
-```mermaid
-sequenceDiagram
-User Interface ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-```
 
 ## Style & Convention
 
@@ -191,7 +169,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE1NDc5OTUsLTEwMTQwNzY5MTcsMT
+eyJoaXN0b3J5IjpbLTIxMzM5ODU4MzgsLTEwMTQwNzY5MTcsMT
 c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
 MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
 csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
