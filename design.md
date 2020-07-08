@@ -131,7 +131,7 @@ tnet network_analysis
 
 # Architecture Design
 
-## Basic Idea
+## Basic Structure
 
 Four main parts: 
 - Interface Controller
@@ -161,6 +161,7 @@ Interface Controller ->> File Management: check output file valid or not
 File Management -->> Interface Controller: return file status
 ```
 
+## File Stuctures
 
 
 ## Style & Convention
@@ -170,7 +171,7 @@ File Management -->> Interface Controller: return file status
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjI4OTg4OSwtMTAxNDA3NjkxNywxNz
+eyJoaXN0b3J5IjpbLTcyNzAyNTU3OSwtMTAxNDA3NjkxNywxNz
 Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
 NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
 wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
