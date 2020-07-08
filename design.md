@@ -217,16 +217,16 @@ walltime = 4
 ``` r
 #reset All settings
 resetSettings -> function ()
-# get Param
-getParameter
-setParamter -> function (parameter,value)
+# get Parameter from setting file
+getParameterFromSettingFile -> function(setting_file_path)
+setParameter -> function (parameter,value)
 checkParameter -> function (paramter, value)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjQ5MzgzNCwzOTcwNDMwMDksLTIwOT
-c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
-MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
-wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
-Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC
-0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMzgzNjI3ODEyLDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
+E2NzA0MjczNTFdfQ==
 -->
