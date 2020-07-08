@@ -205,11 +205,16 @@ upstream = 1000
 downstream = 500
 
 [Network Analysis]
-nboots = 
-
+nboots = 100
+nnodes = 500
+ncores = 16
+memory = 64
+walltime = 4
 ```
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODk2NTc4MiwzOTcwNDMwMDksLTIwOT
+eyJoaXN0b3J5IjpbLTcwMTYwOTE5OSwzOTcwNDMwMDksLTIwOT
 c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
 MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
 wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
