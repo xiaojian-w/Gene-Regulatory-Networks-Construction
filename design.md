@@ -43,7 +43,7 @@ Main steps are as following:
 - one file is enough
 	- preprocess gene
 	- genotype
-	- netowork
+	- network
 	
 .yml
 
@@ -178,16 +178,21 @@ Use `.conf` file syntax for user settings
 
 ```bash
 ## 
-[Default]
+[Gene]
 Start = 0
 End = 10
 Speed = 1
 
-[Section 3-6]
+[Gene Expression]
 Speed = 2
+
+[Network Analysis]
+n = 82 #sample size
+ngenes = 18402 #sample size
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0ODgyMzU0LDM5NzA0MzAwOSwtMjA5Nz
+eyJoaXN0b3J5IjpbMjgzNjgyNDIwLDM5NzA0MzAwOSwtMjA5Nz
 Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
 MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
 MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
