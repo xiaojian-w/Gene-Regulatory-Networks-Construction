@@ -168,10 +168,17 @@ File Management -->> Interface Controller: return file status
 
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
+
+## Detailed Design
+
+### Setting Files
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMT
-c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
-MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
-csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
-NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMD
+E0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5
+NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC
+0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMz
+NjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV
+19
 -->
