@@ -266,15 +266,18 @@ preprocessGeneExpression -> function(ge_file, gpos_file){
 #### Matching Gene Expression Data with Genotype Data
 
 ```r
-matchGenotypeAndGeneExp -> function(gexp_file, gene_pos_file,){
-
-}
+matchGenotypeAndGeneExp -> function(gexp_file, 
+gene_pos_file, 
+geno_file, 
+clean_genotype_file){}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDEyNzg5ODAsLTE3MzI3ODkzNzAsMz
-k3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0
-NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NT
-I2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2
-NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MS
-wtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTM3MjM4MjI3MiwtMTczMjc4OTM3MCwzOT
+cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
+MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
+YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
+NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC
+0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
