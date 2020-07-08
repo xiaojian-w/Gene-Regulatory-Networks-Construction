@@ -193,7 +193,11 @@ gpos.file = PATH/xxx.gpos
 
 [cis-eQTL]
 alpha.cis = 0.05
-
+uncor.ncis = 3
+uncor.r = 0.5
+nperms = 100
+upstream = 1000
+downstream = 500
 
 [Network Analysis]
 n = 82 #sample size
@@ -201,10 +205,10 @@ ngenes = 18402 #number of genes included in the analysis
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg1OTIwMjEsMzk3MDQzMDA5LC0yMD
-k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
-NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0ND
-EsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYy
-NTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MS
-wtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbNjQ5OTM3Mzg0LDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
+E2NzA0MjczNTFdfQ==
 -->
