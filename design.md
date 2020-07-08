@@ -282,7 +282,8 @@ ciseQTL -> function(matched_file,
 gene_anotation_file,
 genopos_file,
 maf_type,
-p_values){}
+p_values,
+nnodes,n_cores,wall_time){}
 # Selecting Uncorrelated Cis-eQTL of each gene
 selectUncorrelatedCiseQTL -> function(){}
 ```
@@ -301,10 +302,10 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5NTA0MTgsLTE3MzI3ODkzNzAsMz
-k3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0
-NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NT
-I2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2
-NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MS
-wtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5Nz
+A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
+MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
+wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
+MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLT
+EzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
