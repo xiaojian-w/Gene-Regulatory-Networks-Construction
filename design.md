@@ -246,15 +246,13 @@ getFileSummary -> function()
 ### Execute Functions
 #### Preprocess Genotype Data
 ```r
-# 
-#
-#
-preprocess_genotype -> function(ped_file,
-){
+# Get three types of output files
+preprocessGenotype -> function(ped_file,
+map_file, PLINK_settings){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjk1MjY0MywtMTczMjc4OTM3MCwzOT
+eyJoaXN0b3J5IjpbMTMxNzkzODMxNywtMTczMjc4OTM3MCwzOT
 cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
 MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
 YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
