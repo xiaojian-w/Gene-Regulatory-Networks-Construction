@@ -135,9 +135,9 @@ tnet network_analysis
 
 Three layers of  implementation: 
 - Interface Controller
-	- check validity of user input paramters & setting files
-	- use file management to check validity of input and output files
-	- 
+	- Check validity of user input paramters & setting files
+	- Implement functions in file management to check validity of input and output files
+	- Implement execute functions in 
 - File Management
 	- check validity of input and output files
 - Execute Function
@@ -184,9 +184,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NjE3ODcsLTEwMTQwNzY5MTcsMTc2NT
-Q1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1
-MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMT
-Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
-LC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMjAzODY0ODIxLC0xMDE0MDc2OTE3LDE3Nj
+U0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0
+NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LD
+E2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4
+MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
