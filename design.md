@@ -161,6 +161,19 @@ Breif introduction to the algorithm
 
 # Architecture Design
 
+## Basic Idea
+
+Three layers of 
+
+```mermaid
+sequenceDiagram
+User Interface -->> User Interface: check paramter & settings valid or not
+User Interface ->> File Management: check input file valid or not
+File Management -->> User Interface: return file status
+User Interface -->> Excute Function: 
+
+```
+
 ## Structure Design
 
 ### File structure
@@ -172,13 +185,7 @@ Breif introduction to the algorithm
 
 ## Workflow Design
 
-```mermaid
-sequenceDiagram
-User Interface ->> File Management: check input file valid or not
-File Management -->> User Interface: return file status
-User Interface -->> Excute Function: 
 
-```
 
 ```mermaid
 sequenceDiagram
@@ -197,7 +204,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY5NTIxMjUsLTEwMTQwNzY5MTcsMT
+eyJoaXN0b3J5IjpbLTIwOTMxOTA4NDAsLTEwMTQwNzY5MTcsMT
 c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
 MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
 csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
