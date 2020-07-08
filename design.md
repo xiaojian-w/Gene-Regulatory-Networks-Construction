@@ -135,6 +135,7 @@ tnet network_analysis
 
 Four main parts: 
 - Interface Controller
+	- Interpret user input
 	- Implement functions in Setting Controller to check validity of input paramters
 	- Implement functions in file management to check validity of input and output files
 	- Implement execute functions 
@@ -173,12 +174,23 @@ Google's R style Guide:
 
 ### Setting Files
 
+Use 
 
+```bash
+## 
+[Default]
+Start = 0
+End = 10
+Speed = 1
+
+[Section 3-6]
+Speed = 2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMD
-E0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5
-NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC
-0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMz
-NjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV
-19
+eyJoaXN0b3J5IjpbNjU4MzA3ODM0LDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
+E2NzA0MjczNTFdfQ==
 -->
