@@ -178,13 +178,22 @@ Use `.conf` file syntax for user settings
 
 ```bash
 ## 
+[Basic]
+nchr = 22
+
 [Genotype]
 ped.file = PATH/xxx.ped
 map.file = PATH/xxx.map
-nch
 
 [Gene Expression]
-Speed = 2
+ge.file = PATH/xxx.ge
+gpos.file = PATH/xxx.gpos
+
+[PLINK]
+
+[cis-eQTL]
+alpha.cis = 0.05
+
 
 [Network Analysis]
 n = 82 #sample size
@@ -192,10 +201,10 @@ ngenes = 18402 #number of genes included in the analysis
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NjQ5MjI5LDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
-E2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDg1OTIwMjEsMzk3MDQzMDA5LC0yMD
+k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
+NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0ND
+EsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYy
+NTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MS
+wtMTY3MDQyNzM1MV19
 -->
