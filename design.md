@@ -262,11 +262,19 @@ pcAnalysis -> function(){}
 preprocessGeneExpression -> function(ge_file, gpos_file){
 }
 ```
+
+#### Matching Gene Expression Data with Genotype Data
+
+```r
+matchGenotypeAndGeneExp -> function(gexp_file, gene_pos_file,){
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDY5OTY0LC0xNzMyNzg5MzcwLDM5Nz
-A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
-MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
-wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
-MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLT
-EzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MDEyNzg5ODAsLTE3MzI3ODkzNzAsMz
+k3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0
+NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NT
+I2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2
+NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MS
+wtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
