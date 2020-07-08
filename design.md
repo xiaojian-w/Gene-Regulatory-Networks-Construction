@@ -31,7 +31,7 @@ Main steps are as following:
 2. Separate Network Construction Step from Preprocess Steps so as to allow the users to preprocess the data themselves;
 3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
 
-### User Input and Output
+### User Executing Steps
 
 ####  1. Prepare Data
 - gene expression 
@@ -162,6 +162,7 @@ File Management -->> Interface Controller: return file status
 ```
 
 
+
 ## Style & Convention
 
 ### R programming  convention
@@ -169,9 +170,9 @@ File Management -->> Interface Controller: return file status
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM5ODU4MzgsLTEwMTQwNzY5MTcsMT
-c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
-MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
-csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
-NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbMTU2NjI4OTg4OSwtMTAxNDA3NjkxNywxNz
+Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
+NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
+wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
+ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
