@@ -135,20 +135,18 @@ tnet network_analysis
 
 Four main parts: 
 - Interface Controller
-	- Implement functions in Setting Controller to check validity of input paramter
-	- Check validity of user input paramters & setting files
+	- Implement functions in Setting Controller to check validity of input paramters
 	- Implement functions in file management to check validity of input and output files
 	- Implement execute functions 
 - File Management
 	- Check validity of input and output files
 	- Clear 
 - Execute Function
-	- Basic process steps
 
 ```mermaid
 sequenceDiagram
 Interface Controller ->> Setting Controller: check paramter or settings 
-
+Setting Controller -->> Interface Controller: return paramter status
 Interface Controller ->> File Management: check input file valid or not
 File Management -->> Interface Controller: return file status
 Interface Controller ->> Execute Function: input paramter
@@ -189,7 +187,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDczODA5NCwtMTAxNDA3NjkxNywxNz
+eyJoaXN0b3J5IjpbLTcxNjIwNjE3NCwtMTAxNDA3NjkxNywxNz
 Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
 NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
 wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
