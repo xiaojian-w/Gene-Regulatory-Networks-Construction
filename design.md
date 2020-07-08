@@ -216,11 +216,14 @@ walltime = 4
 
 ``` r
 #reset All settings
-#@return 
 resetSettings -> function (){
 }
-# get Parameter from setting file
-getParameter -> function(setting_file_path, paramter)
+#` get Parameter from setting file
+#` @return 
+getParameter -> function(setting_file_path, paramter){
+}
+#` set single parameter
+#` @return 
 setParameter -> function (parameter,value)
 checkParameter -> function (paramter, value)
 ```
@@ -228,10 +231,10 @@ checkParameter -> function (paramter, value)
 ### File Management
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NzYxMzUsLTE3MzI3ODkzNzAsMzk3MD
-QzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMx
-NTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC
-02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYw
-MjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMT
-MzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbMTYzMjI1ODI3NiwtMTczMjc4OTM3MCwzOT
+cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
+MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
+YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
+NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC
+0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
