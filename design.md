@@ -178,8 +178,8 @@ Use `.conf` file syntax for user settings
 
 ```bash
 ## 
-[Gene]
-Start = 0
+[Genotype]
+p're = 0
 End = 10
 Speed = 1
 
@@ -188,14 +188,14 @@ Speed = 2
 
 [Network Analysis]
 n = 82 #sample size
-ngenes = 18402 #sample size
+ngenes = 18402 #number of genes included in the analysis
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNjgyNDIwLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
-E2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE4ODc5OTgyMSwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
+wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
+Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC
+0xNjcwNDI3MzUxXX0=
 -->
