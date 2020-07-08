@@ -174,11 +174,7 @@ Breif introduction to the algorithm
 
 ```mermaid
 sequenceDiagram
-User Interface ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+User Interface ->> File Management: check file 
 
 ```
 
@@ -199,9 +195,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzA2MTU1NiwtMTAxNDA3NjkxNywxNz
-Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
-NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
-wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
-ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMjc0ODU5ODI4LC0xMDE0MDc2OTE3LDE3Nj
+U0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0
+NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LD
+E2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4
+MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
 -->
