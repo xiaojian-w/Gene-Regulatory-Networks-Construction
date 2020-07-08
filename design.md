@@ -218,15 +218,18 @@ walltime = 4
 #reset All settings
 resetSettings -> function ()
 # get Parameter from setting file
-getParameterFromSettingFile -> function(setting_file_path)
+getParameter -> function(setting_file_path, paramter)
 setParameter -> function (parameter,value)
 checkParameter -> function (paramter, value)
 ```
+
+### File Management
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNjI3ODEyLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
-E2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMD
+k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
+NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0ND
+EsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYy
+NTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MS
+wtMTY3MDQyNzM1MV19
 -->
