@@ -177,11 +177,10 @@ Google's R style Guide:
 Use `.conf` file syntax for user settings
 
 ```bash
+# basic settings
 [Basic]
 nchr = 22
-output.path = OUTPUT_PATH
-
-
+storage.path = STORAGE_PATH
 
 [Genotype]
 ped.file = PATH/xxx.ped
@@ -206,15 +205,14 @@ upstream = 1000
 downstream = 500
 
 [Network Analysis]
-n = 82 #sample size
-ngenes = 18402 #number of genes included in the analysis
+nboots = 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MDc4ODA4LDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLTEzMzkwNzI1ODEsLT
-E2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbMTAwODk2NTc4MiwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
+wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
+Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcyNTgxLC
+0xNjcwNDI3MzUxXX0=
 -->
