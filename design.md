@@ -177,9 +177,11 @@ Google's R style Guide:
 Use `.conf` file syntax for user settings
 
 ```bash
-## 
 [Basic]
 nchr = 22
+output.path = OUTPUT_PATH
+
+
 
 [Genotype]
 ped.file = PATH/xxx.ped
@@ -190,6 +192,10 @@ ge.file = PATH/xxx.ge
 gpos.file = PATH/xxx.gpos
 
 [PLINK]
+mind = 0.1
+ggeno = 0.1
+hwe = 0.0001
+recode = A
 
 [cis-eQTL]
 alpha.cis = 0.05
@@ -205,7 +211,7 @@ ngenes = 18402 #number of genes included in the analysis
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5OTM3Mzg0LDM5NzA0MzAwOSwtMjA5Nz
+eyJoaXN0b3J5IjpbMjk0MDc4ODA4LDM5NzA0MzAwOSwtMjA5Nz
 Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
 MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
 MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
