@@ -167,11 +167,11 @@ Three layers of
 
 ```mermaid
 sequenceDiagram
-User Interface ->> User Interface: check paramter or settings 
-User Interface ->> File Management: check input file valid or not
-File Management -->> User Interface: return file status
-User Interface ->> Execute Function: input paramter
-File Management -->> User Interface: return file status 
+Interface Controller ->> User Interface: check paramter or settings 
+Interface Controller ->> File Management: check input file valid or not
+File Management -->> Interface Controller: return file status
+Interface Controller ->> Execute Function: input paramter
+Execute Function -->> Interface Controller: return function
 
 ```
 
@@ -205,9 +205,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwOTI1OTgxLC0xMDE0MDc2OTE3LDE3Nj
-U0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0
-NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LD
-E2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4
-MSwtMTMzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbLTE4Mjc4NzgyNjIsLTEwMTQwNzY5MTcsMT
+c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
+MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
+csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
+NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
