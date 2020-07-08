@@ -291,22 +291,19 @@ selectUncorrelatedCiseQTL -> function(){}
 
 ``` r
 # organize gene expression and genotype data
-organizeData -> function(){}
+organizeData -> function(gene_exp_file,geno_file,uncoryx_file){}
 # get information of genes in network data
-getNetworkGeneInfo-> function(){
-}
+getNetworkGeneInfo-> function(){}
 # construct gene regulatory network
-tspls -> function(){
-}
-bootstrapAnalysis -> function(){
-}
+tspls -> function(){}
+bootstrapAnalysis -> function(nboots,nnodes,n_cores,wall_time,){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MDA5MDAsLTE3MzI3ODkzNzAsMzk3MD
-QzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMx
-NTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC
-02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYw
-MjA0NiwyNjYyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMT
-MzOTA3MjU4MSwtMTY3MDQyNzM1MV19
+eyJoaXN0b3J5IjpbNzU4ODIyMTg4LC0xNzMyNzg5MzcwLDM5Nz
+A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
+MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
+wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
+MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLT
+EzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
