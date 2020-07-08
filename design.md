@@ -135,7 +135,8 @@ tnet network_analysis
 
 Three layers of  implementation: 
 - Interface Controller
-	- control the basic work flow 
+	- control the basic workflow
+	- control the 
 - File Management
 - Execute Function
 ```mermaid
@@ -181,7 +182,7 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODI3MzQ2NCwtMTAxNDA3NjkxNywxNz
+eyJoaXN0b3J5IjpbLTgwNjAyMDk3MywtMTAxNDA3NjkxNywxNz
 Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
 NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
 wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
