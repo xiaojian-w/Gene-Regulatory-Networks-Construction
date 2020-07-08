@@ -135,9 +135,11 @@ tnet network_analysis
 
 Three layers of  implementation: 
 - Interface Controller
-	- control the basic workflow
-	- control the 
+	- check validity of user input paramters & setting files
+	- use file management to check validity of input and output files
+	- 
 - File Management
+	- check validity of input and output files
 - Execute Function
 ```mermaid
 sequenceDiagram
@@ -182,9 +184,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjAyMDk3MywtMTAxNDA3NjkxNywxNz
-Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
-NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
-wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
-ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbNjA3NjE3ODcsLTEwMTQwNzY5MTcsMTc2NT
+Q1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1
+MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMT
+Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
+LC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
