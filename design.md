@@ -250,8 +250,11 @@ getFileSummary -> function()
 preprocessGenotype -> function(ped_file,
 map_file, PLINK_settings){
 }
-# compute minor allele frequency for each 
-computeMAF ->function(){
+# compute minor allele frequency for each SNP
+computeMAF ->function(matched_geno_file,clean){
+}
+# seperate SNP based on MAF
+seperateSNP -> function(map_file,maf_file,geno_file){
 }
 ```
 #### Preprocess Gene Expression Data
@@ -277,7 +280,7 @@ clean_genotype_file){}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzcyMTc1MywtMTczMjc4OTM3MCwzOT
+eyJoaXN0b3J5IjpbMTU1NDM5Njc0OSwtMTczMjc4OTM3MCwzOT
 cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
 MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
 YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
