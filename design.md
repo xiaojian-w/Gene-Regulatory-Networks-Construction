@@ -141,10 +141,10 @@ Four main parts:
 - Setting Controller
 	- Read setting file
 	- Reset parameter
-	- 
 - File Management
 	- Check validity of input and output files
 	- Clear / reset work directory
+	- Show file status
 - Execute Function
 
 ```mermaid
@@ -191,9 +191,9 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDU3MjQwMiwtMTAxNDA3NjkxNywxNz
-Y1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUw
-NDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4Ny
-wxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0
-ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbLTExNzE1NDc5OTUsLTEwMTQwNzY5MTcsMT
+c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
+MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0OD
+csMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4
+NDgxLC0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
 -->
