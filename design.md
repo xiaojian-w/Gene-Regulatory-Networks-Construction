@@ -251,11 +251,18 @@ preprocessGenotype -> function(ped_file,
 map_file, PLINK_settings){
 }
 ```
+#### Preprocess Gene Expression Data
+```r
+checkNormalized -> function(){}
+im
+preprocessGeneExpression -> function(){
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzkzODMxNywtMTczMjc4OTM3MCwzOT
-cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
-MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1Mj
-YsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0
-NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC
-0xMzM5MDcyNTgxLC0xNjcwNDI3MzUxXX0=
+eyJoaXN0b3J5IjpbNDc1MDI5MTUwLC0xNzMyNzg5MzcwLDM5Nz
+A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
+MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
+wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
+MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLT
+EzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
