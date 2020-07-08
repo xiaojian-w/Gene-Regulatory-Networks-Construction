@@ -172,7 +172,7 @@ Google's R style Guide:
 
 ## Detailed Design
 
-### Setting Files
+### Setting File
 
 Use `.conf` file syntax for user settings
 
@@ -232,8 +232,13 @@ checkParameter -> function (paramter, value)
 
 ### File Management
 
+```r
+# check validity of file
+checkFile -> function(type, path)
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzExMTksLTE3MzI3ODkzNzAsMzk3MD
+eyJoaXN0b3J5IjpbODkwNTg3NzMsLTE3MzI3ODkzNzAsMzk3MD
 QzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMx
 NTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC
 02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYw
