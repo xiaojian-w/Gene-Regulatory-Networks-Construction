@@ -170,6 +170,9 @@ File Management -->> Interface Controller: return file status
 Google's R style Guide:
 [http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 
+Shell Style Guide
+[https://google.github.io/styleguide/shellguide.html](https://google.github.io/styleguide/shellguide.html)
+
 ## Detailed Design
 
 ### Setting File
@@ -302,10 +305,10 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5Nz
-A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
-MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
-wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
-MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMzE0MTg0ODEsLT
-EzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
+eyJoaXN0b3J5IjpbNjYyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNz
+g5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3Njkx
+NywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMT
+Q5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2
+MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3LDEzMz
+E0MTg0ODEsLTEzMzkwNzI1ODEsLTE2NzA0MjczNTFdfQ==
 -->
