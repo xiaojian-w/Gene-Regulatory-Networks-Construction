@@ -248,6 +248,12 @@ getFileSummary -> function()
 ### Execute Functions
 #### Preprocess Genotype Data
 ```r
+getFAMfromVCF -> function(vcf_file_path){}
+
+makeFAM
+```
+
+```r
 # Get three types of output files
 preprocessGenotype -> function(ped_file,
 map_file, PLINK_settings){
@@ -304,11 +310,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NT
-YwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3
-LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLT
-YwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2Nzgy
-NTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzND
-c0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4MSwtMTY3MDQy
-NzM1MV19
+eyJoaXN0b3J5IjpbMTI3NTQ2NzkwOSwtOTIzMDY0MTQyLDY2Mj
+U2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDks
+LTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMT
+MwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0
+NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LD
+I2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgxLC0xMzM5MDcy
+NTgxXX0=
 -->
