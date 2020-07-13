@@ -253,9 +253,9 @@ getBEDfromBCF -> function(bcf_file_path, bed_file_path{}
 makeFAMfile -> function(sample_path, gdc_path,lusc_path,
 fam_file_path,sort_file_path){}
 
-filterMissingValue -> function(genotype_file_path, out_file_path, geno=0.1, hwe=0.001, web=FALSE, recode=TURE){}
+filterMissingValue -> function(genotype_file_path, out_file_path, geno=0.1, hwe=0.001, web_check=FALSE, recode=TURE){}
 
-
+removeSamples -> functi
 
 
 
@@ -318,11 +318,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1Nj
-Y1Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0y
-MDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMD
-c1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0
-NDEsMzE2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNj
-YyNTI3OCwzNDc0MjMzNjcsMTMzMTQxODQ4MSwtMTMzOTA3MjU4
-MV19
+eyJoaXN0b3J5IjpbLTYzNDg2Mjk3OCwxMTMyMjA4MiwtOTIzMD
+Y0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwz
+OTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NT
+Q1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1
+MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMT
+Y0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2NywxMzMxNDE4NDgx
+XX0=
 -->
