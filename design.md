@@ -253,9 +253,17 @@ getBEDfromBCF -> function(bcf_file_path, bed_file_path{}
 makeFAMfile -> function(sample_path, gdc_path,lusc_path,
 fam_file_path,sort_file_path){}
 
-filterMissingValue -> function(genotype_file_path, out_file_path, geno=0.1, hwe=0.001, web_check=FALSE, recode=TRUE){}
+filterMissingValue -> function(genotype_file_path, 
+out_file_path, geno=0.1, 
+hwe=0.001, web_check=FALSE, 
+recode=TRUE){}
 
-removeSamples -> function(genotype_file, output_file, mind=0.1,web=FALSE, recode=TRUE){}
+removeSamples -> function(genotype_file, 
+output_file, 
+mind=0.1,web=FALSE, recode=TRUE){}
+
+splitGenotypeByChromosome -> function(genotype_file){
+}
 
 
 
@@ -318,7 +326,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUwMTU2NjUsMTEzMjIwODIsLTkyMz
+eyJoaXN0b3J5IjpbLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMz
 A2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAs
 Mzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3Nj
 U0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0
