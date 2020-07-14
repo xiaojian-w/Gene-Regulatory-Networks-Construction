@@ -249,13 +249,16 @@ getFileSummary -> function(){}
 
 ```r
 get1000GenomeData ->
-function(download_path){}
+function(download_path,to_path){}
 
 getGenomicMap -> 
-function(download_path){}
+function(download_path,to_path){}
 
 getIMPUTE2 -> 
-function(download_path){}
+function(download_path,to_path){}
+
+getGeneExpressionData -> 
+function(lusc_path,luad_path,){}
 
 ```
 
@@ -357,11 +360,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5NjUzNTcsLTg2MjQ5NzA1MSwtMT
-g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
-LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
-c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
-MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
-wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
-Mjc4XX0=
+eyJoaXN0b3J5IjpbNDM4NDIxNDE4LC04NjI0OTcwNTEsLTE4ND
+gyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2
+MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3ND
+Y4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMx
+NjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMz
+E2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3
+OF19
 -->
