@@ -415,6 +415,14 @@ seperateSNP -> function(map_file,maf_file,geno_file){}
 
 
 #### Preprocess Gene Expression Data
+
+```r
+
+
+
+```
+
+FromTsplsVersion
 ```r
 # check whether the data has been normalized
 checkNormalization-> function(){}
@@ -461,7 +469,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5MTk2MTcwLC0xODQyMTI3NjE4LC0yOT
+eyJoaXN0b3J5IjpbMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOT
 M5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4
 MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMj
 c4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5
