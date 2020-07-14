@@ -304,7 +304,7 @@ Imputation
 ```r
 
 convertCoordinatesForTCGA -> 
-function(){}
+function(){}?
 
 imputeData -> 
 function(ped_file, out_file){}
@@ -331,6 +331,10 @@ function(){
 	download1000GenomeData()
 	downloadGenomicMap()
 	downloadImpute2()
+	convertCoordinatesForTCGA()?
+	imputeData()
+	splitPedByChr()
+	convertMapIntoImpute()
 	
 }
 
@@ -393,11 +397,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTkzMzgsLTg2MjQ5NzA1MSwtMTg0OD
-I3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYy
-NTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOTc0Nj
-g5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2
-OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMT
-Y3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4
-XX0=
+eyJoaXN0b3J5IjpbLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xOD
+Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
+NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzhdfQ==
 -->
