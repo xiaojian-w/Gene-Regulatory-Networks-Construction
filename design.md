@@ -253,6 +253,10 @@ function(download_path){}
 
 getGenomicMap -> 
 function(download_path){}
+
+getIMPUTE2 -> 
+function(download_path){}
+
 ```
 
 ### Execute Functions
@@ -261,28 +265,32 @@ function(download_path){}
 getBEDfromBCF -> 
 function(bcf_file_path, bed_file_path{}
 
-makeFAMfile -> function(sample_path, gdc_path,lusc_path,
+makeFAMfile -> 
+function(sample_path, gdc_path,lusc_path,
 fam_file_path,sort_file_path){}
 
-filterMissingValue -> function(genotype_file_path, 
+filterMissingValue -> 
+function(genotype_file_path, 
 out_file_path, geno=0.1, 
 hwe=0.001, web_check=FALSE, 
 recode=TRUE){}
 
-removeSamples -> function(genotype_file, 
+removeSamples -> 
+function(genotype_file, 
 output_file, 
 mind=0.1,web=FALSE, recode=TRUE){}
 
 splitGenotypeByChromosome -> function(genotype_file){
 }
 
-convertCoordinatesForTCGA -> function(){}
+convertCoordinatesForTCGA -> 
+function(){}
 
-imputeData -> function(ped_file, out_file){}
+imputeData -> 
+function(ped_file, out_file){}
 
 splitPedByChr -> 
 function(ped_file, chromo_num){}
-
 
 genotypePreprocess -> 
 function(){
@@ -349,7 +357,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQzODc0MjMsLTg2MjQ5NzA1MSwtMT
+eyJoaXN0b3J5IjpbLTE1MzA5NjUzNTcsLTg2MjQ5NzA1MSwtMT
 g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
 LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
 c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
