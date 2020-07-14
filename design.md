@@ -297,7 +297,7 @@ splitPedByChr ->
 function(ped_file, chromo_num){}
 
 convertMapIntoImpute ->
-function()
+function(input_file, output_file)
 
 convertGenomeIntoImpute ->
 function(genotype_file_path, out_path){}
@@ -369,7 +369,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjA5MzYxNywtODYyNDk3MDUxLC0xOD
+eyJoaXN0b3J5IjpbLTM4ODk1NzQzMiwtODYyNDk3MDUxLC0xOD
 Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
 NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
 Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
