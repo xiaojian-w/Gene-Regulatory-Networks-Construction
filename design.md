@@ -301,7 +301,10 @@ mind=0.1,web=FALSE, recode=TRUE){}
 
 splitGenotypeByChromosome -> 
 function(genotype_file){}
-
+```
+```r
+## Set constant
+path_1 = ...
 plinkProcess -> function(?)
 {
 	getBEDfromBCF()
@@ -388,7 +391,7 @@ function(?){
 }
 ```
 
-combineProcess
+combine process
 
 ```r
 genotypePreprocess -> 
@@ -455,11 +458,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI2MTMyMCwtMTg0MjEyNzYxOCwtMj
-kzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIw
-ODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3Mz
-I3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2
-OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4Ny
-wxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMy
-NjYwNDg3XX0=
+eyJoaXN0b3J5IjpbLTE0OTAxOTgwMjIsLTE4NDIxMjc2MTgsLT
+I5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIy
+MDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNz
+MyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3
+NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwOD
+csMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTcz
+MjY2MDQ4N119
 -->
