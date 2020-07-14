@@ -245,11 +245,12 @@ clearFile -> function(type)
 getFileSummary -> function(){}
 ```
 
-### DataDownload
+### DataDownloader
 
 ```r
-downloadGenomeData ->
+get1000GenomeData ->
 function()
+getGenomicMap -> function()
 ```
 
 ### Execute Functions
@@ -345,11 +346,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMT
-MyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwt
-MTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMT
-QwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1
-MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLT
-E3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2
-N119
+eyJoaXN0b3J5IjpbMjExNTc0MDYzOSwtODYyNDk3MDUxLC0xOD
+Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
+NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzhdfQ==
 -->
