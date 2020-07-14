@@ -306,10 +306,10 @@ Imputation
 convertCoordinatesForTCGA -> 
 function(){}?
 
-imputeData -> 
+removeFamilyInfo -> 
 function(ped_file, out_file){}
 
-splitPedByChr -> 
+createPedByChr -> 
 function(ped_file, chromo_num){}
 
 convertMapIntoImpute ->
@@ -397,11 +397,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xOD
-Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
-NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtOD
+YyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQx
+NDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5Nz
+A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
+MTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNi
+wtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2
+MDIwNDZdfQ==
 -->
