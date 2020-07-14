@@ -265,8 +265,11 @@ mind=0.1,web=FALSE, recode=TRUE){}
 splitGenotypeByChromosome -> function(genotype_file){
 }
 
+convertCoordinatesForTCGA -> function(){}
+
 imputation -> function(){
 }
+
 
 genotypePreprocess -> function(){
 
@@ -333,11 +336,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NjQ3NTM2LC0xODQ4Mjc1ODQ1LDExMz
-IyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0x
-NzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxND
-A3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUw
-ODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMT
-czMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUyNzgsMzQ3NDIzMzY3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMTc1Mjg5MzYsLTE4NDgyNzU4NDUsMT
+EzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIs
+LTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMD
+E0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5
+NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC
+0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMz
+NjddfQ==
 -->
