@@ -302,12 +302,13 @@ function(input_file, output_file)
 convertGenomeIntoImpute ->
 function(genotype_file_path, out_path){}
 
-convertGenoToShapeItformat ->
+convertGenomicMapToShapeIt ->
 function(input_file,output_file){}
 
 genotypePreprocess -> 
-function(){
-}
+function(){}
+
+mergeChunks -> function(input_file,output_file){}
 
 
 
@@ -370,7 +371,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDUwMzk2NywtODYyNDk3MDUxLC0xOD
+eyJoaXN0b3J5IjpbMTg5NDE1Mzg1OCwtODYyNDk3MDUxLC0xOD
 Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
 NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
 Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
