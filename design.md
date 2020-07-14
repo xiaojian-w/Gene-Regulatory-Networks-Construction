@@ -258,7 +258,7 @@ getIMPUTE2 ->
 function(download_path,to_path){}
 
 getGeneExpressionData -> 
-function(lusc_path,luad_path,){}
+function(lusc_path,luad_path,raw_count_path){}
 
 ```
 
@@ -360,11 +360,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4NDIxNDE4LC04NjI0OTcwNTEsLTE4ND
-gyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2
-MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3ND
-Y4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMx
-NjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMz
-E2NzgyNTk1LC0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3
-OF19
+eyJoaXN0b3J5IjpbMTcxNjk1OTE5OCwtODYyNDk3MDUxLC0xOD
+Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
+NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
+Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
+MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
+MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
+NzhdfQ==
 -->
