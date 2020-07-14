@@ -343,6 +343,9 @@ mergeChunks -> function(input_file,output_file){}
 testImputationRuntime ->
 function(){}
 
+setImputeJob ->
+function(?){}
+
 ```
 
 ```r
@@ -351,10 +354,7 @@ function(?){
 	download1000GenomeData()
 	downloadGenomicMap()
 	downloadImpute2()
-	
 	convertGenomicMapToShapeIt()
-	testImputationRuntime()
-	
 }
 ```
 
@@ -371,6 +371,8 @@ function(?){
 	convertStudyGenomeIntoImpute()
 	
 	downloadAndProcessReferenceData()
+	testImputationRuntime()
+	setImputeJob
 	combineGenotypeAcrossAllChr()
 }
 
@@ -433,7 +435,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjY3MTAxMiwtMTg0MjEyNzYxOCwtMj
+eyJoaXN0b3J5IjpbLTgxMzAzOTI4MSwtMTg0MjEyNzYxOCwtMj
 kzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIw
 ODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3Mz
 I3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2
