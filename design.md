@@ -245,6 +245,13 @@ clearFile -> function(type)
 getFileSummary -> function(){}
 ```
 
+### SystemTets
+```r
+
+```
+
+### ParallelCompute
+
 ### DataDownloader
 
 ```r
@@ -341,7 +348,6 @@ function(?){
 testImputationTime ->
 function(){}
 
-test
 
 impute -> 
 function(){}
@@ -421,11 +427,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDI1OTg2NCwtMTg0MjEyNzYxOCwtMj
-kzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIw
-ODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3Mz
-I3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2
-OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5NTA4Ny
-wxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC0xNzMy
-NjYwNDg3XX0=
+eyJoaXN0b3J5IjpbNTE2NDQyMDI3LC0xODQyMTI3NjE4LC0yOT
+M5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4
+MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMj
+c4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5
+MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LD
+E0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2
+NjA0ODddfQ==
 -->
