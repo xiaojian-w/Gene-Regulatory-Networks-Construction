@@ -243,8 +243,13 @@ clearWorkDirectory -> function()
 clearFile -> function(type)
 # get file summary
 getFileSummary -> function(){}
+```
 
+### DataDownload
 
+```r
+downloadGenomeData ->
+function()
 ```
 
 ### Execute Functions
@@ -340,11 +345,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYwMjU5NTMsLTE4NDgyNzU4NDUsMT
-EzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIs
-LTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMD
-E0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5
-NTA4NywxNDkxNTA0NTI2LC02Mjc4NDQ0NDEsMzE2NzgyNTk1LC
-0xNzMyNjYwNDg3LDE2NDYwMjA0NiwyNjYyNTI3OCwzNDc0MjMz
-NjddfQ==
+eyJoaXN0b3J5IjpbLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMT
+MyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwt
+MTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMT
+QwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1
+MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLT
+E3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1Mjc4LDM0NzQyMzM2
+N119
 -->
