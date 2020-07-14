@@ -268,7 +268,7 @@ function(lusc_path,luad_path,raw_count_path){}
 Plink Process
 ```r
 getBEDfromBCF -> 
-function(bcf_file_path, bed_file_path{}
+function(bcf_file_path, bed_file_path){}
 
 makeFAMfile -> 
 function(sample_path, gdc_path,lusc_path,
@@ -288,7 +288,7 @@ mind=0.1,web=FALSE, recode=TRUE){}
 splitGenotypeByChromosome -> 
 function(genotype_file){}
 
-plink -> function()
+plinkProcess -> function(?)
 {
 getBEDfromBCF()
 makeFAMfile()
@@ -326,7 +326,10 @@ function(){}
 
 mergeChunks -> function(input_file,output_file){}
 
-
+imputation ->
+function(){
+	download
+}
 
 ```
 
@@ -387,11 +390,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjI2MDQwMCwtODYyNDk3MDUxLC0xOD
-Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
-NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLD
-MxNjc4MjU5NSwtMTczMjY2MDQ4NywxNjQ2MDIwNDYsMjY2MjUy
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEyNTk3NjUsLTg2MjQ5NzA1MSwtMT
+g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
+LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OSwtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MS
+wzMTY3ODI1OTUsLTE3MzI2NjA0ODcsMTY0NjAyMDQ2LDI2NjI1
+Mjc4XX0=
 -->
