@@ -330,6 +330,9 @@ function(){}
 
 mergeChunks -> function(input_file,output_file){}
 
+downloadAndProcessReferenceData ->
+function
+
 imputation ->
 function(){
 	download1000GenomeData()
@@ -341,6 +344,7 @@ function(){
 	splitPedByChr()
 	convertMapIntoImpute()
 	
+	combineGenotypeAcrossAllChr()
 }
 
 ```
@@ -402,11 +406,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTgxNzc5LC0xODQyMTI3NjE4LC0yOT
-M5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4
-MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMj
-c4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5
-MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LD
-E0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2
-NjA0ODddfQ==
+eyJoaXN0b3J5IjpbLTEyNDMyMjEyMjksLTE4NDIxMjc2MTgsLT
+I5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIy
+MDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNz
+MyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3
+NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5LC02MDEyOTUwOD
+csMTQ5MTUwNDUyNiwtNjI3ODQ0NDQxLDMxNjc4MjU5NSwtMTcz
+MjY2MDQ4N119
 -->
