@@ -269,10 +269,11 @@ convertCoordinatesForTCGA -> function(){}
 
 imputeData -> function(ped_file, out_file){}
 
-createPedByChromosome -> function(ped_file, chromo_num){}
+splitPedByChr -> 
+function(ped_file, chromo_num){}
 
-genotypePreprocess -> function(){
-
+genotypePreprocess -> 
+function(){
 }
 
 
@@ -336,7 +337,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzMzNzQyNiwtMTg0ODI3NTg0NSwxMT
+eyJoaXN0b3J5IjpbMTQ0MjcyNzY4NywtMTg0ODI3NTg0NSwxMT
 MyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwt
 MTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMT
 QwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1
