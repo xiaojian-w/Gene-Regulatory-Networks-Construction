@@ -178,7 +178,10 @@ R style Guide:
 Shell Style Guide
 [https://google.github.io/styleguide/shellguide.html](https://google.github.io/styleguide/shellguide.html)
 
-### Some Pribci
+### Some Principles to Rewrite the Code
+
+1. Split code different functions and files
+2. Limit 
 
 ## Detailed Design
 
@@ -669,7 +672,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTAwMzI2MCwtMjA4NzI3MDQwMiwxNT
+eyJoaXN0b3J5IjpbLTM4OTIyMjgzNCwtMjA4NzI3MDQwMiwxNT
 g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
 OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
 wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
