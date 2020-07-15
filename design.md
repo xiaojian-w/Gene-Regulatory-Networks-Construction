@@ -486,6 +486,11 @@ function(gene_file,gexp_file,cis_type){}
 
 cisSummary ->
 function(gexp_data){}
+
+## cis-eqtl analysis
+cisAnalysis ->
+function(type)
+
 ```
 
 FromTsplsVersion
@@ -536,11 +541,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgxODg4NTAsLTY1NjM5NzY1NCw5Mj
-Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
-MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
-g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
-MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOT
-cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
-MzE1M119
+eyJoaXN0b3J5IjpbLTQ0NDU2MDAxMSwtNjU2Mzk3NjU0LDkyNj
+UwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYw
+OCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtOD
+YyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQx
+NDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5Nz
+A0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUz
+MTUzXX0=
 -->
