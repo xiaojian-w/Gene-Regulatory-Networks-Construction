@@ -178,11 +178,11 @@ Shell Style Guide
 
 ```r
 ## data: original data files 
-## tmp: temporary output files will only be used 
+## tmp: temporary output files will only be used for once
 ## result: output files will be used in further steps
 genotype/
 - data/
-	- TCGA
+- 
 - tmp/
 - result/
 gene_expression/
@@ -619,11 +619,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAxNzg3MTQsMTU4NzA1MjczNiwxMT
-YxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMx
-MTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NC
-w5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3
-MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMz
-IsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIz
-MDY0MTQyXX0=
+eyJoaXN0b3J5IjpbMjA5NzgyMjU1OSwxNTg3MDUyNzM2LDExNj
+E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
+NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
+kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
+ODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMi
+wtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMw
+NjQxNDJdfQ==
 -->
