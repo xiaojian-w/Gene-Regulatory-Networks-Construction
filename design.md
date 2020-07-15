@@ -180,24 +180,26 @@ Shell Style Guide
 ## data: original data files 
 ## tmp: temporary output files will only be used for once
 ## result: output files will be used in further steps
-genotype/
-- task_name/
-	- data/
-	- tmp/
-	- result/
-gene_expression/
-- task_name/
-	- data/
-	- tmp/
-	- result/
-cis-eqtl/
-- task_name/
-	- tmp/
-	- result/
-network/
-- task_name/
-	- tmp/
-	- result/
+data/
+- genotype/
+	- task_name/
+		- data/
+		- tmp/
+		- result/
+- gene_expression/
+	- task_name/
+		- data/
+		- tmp/
+		- result/
+- cis_eqtl/
+	- task_name/
+		- tmp/
+		- result/
+- network/
+	- task_name/
+		- tmp/
+		- result/
+settings
 
 ```
 
@@ -622,7 +624,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTM0NzA4NiwxNTg3MDUyNzM2LDExNj
+eyJoaXN0b3J5IjpbMTg3NjA0NDkzMiwxNTg3MDUyNzM2LDExNj
 E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
 NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
 kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
