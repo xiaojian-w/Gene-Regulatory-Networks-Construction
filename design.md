@@ -529,6 +529,14 @@ checkGeneTypeOfEQTL ->
 function(){}
 
 ```
+#### Boostrap Analysis
+```r
+```
+
+#### Network Visualization
+```r
+
+```
 
 FromTsplsVersion
 ```r
@@ -578,11 +586,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNj
-E3NjU3OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3
-MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMT
-g0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgy
-NzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2Mj
-U1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4
-OTk3XX0=
+eyJoaXN0b3J5IjpbMjc1MDY5OTIxLC03NDk2MzExNDMsMTk1ND
+g5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMx
+NywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOT
+IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
+MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
+YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
+OV19
 -->
