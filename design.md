@@ -181,6 +181,9 @@ genotype/
 - 
 gene_expression/
 - gene_pos
+cis-eqtl/
+network/
+
 ```
 
 ### Setting File
@@ -564,7 +567,6 @@ function(netData,subIndex){}
 visualizeNetwork ->
 function(netData){}
 
-output
 
 ```
 
@@ -605,11 +607,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODcyMzIyMiwxNTg3MDUyNzM2LDExNj
-E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
-NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
-kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
-ODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMi
-wtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMw
-NjQxNDJdfQ==
+eyJoaXN0b3J5IjpbMTU2NTk5MTgxLDE1ODcwNTI3MzYsMTE2MT
+YwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0
+MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOT
+I2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4
+NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC
+04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2
+NDE0Ml19
 -->
