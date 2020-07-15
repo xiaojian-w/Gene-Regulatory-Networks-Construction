@@ -487,12 +487,17 @@ function(gene_file,gexp_file,cis_type){}
 cisSummary ->
 function(gexp_data){}
 
-## cis-eqtl analysis
-calc
+
 cisAnalysis ->
-function(cis_type){
-	
-}
+function(cis_type){}
+
+calcPValue -> 
+function(cis_type)
+
+selectSignificant -> 
+function(cis_type,p_value)
+
+
 
 ```
 
@@ -544,11 +549,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA3ODEzODIsLTY1NjM5NzY1NCw5Mj
-Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
-MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
-g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
-MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOT
-cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
-MzE1M119
+eyJoaXN0b3J5IjpbMjgxOTY5MDIwLC02NTYzOTc2NTQsOTI2NT
+AxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4
+LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04Nj
+I0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0
+Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MD
+QzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMx
+NTNdfQ==
 -->
