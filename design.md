@@ -283,7 +283,7 @@ memoryTest -> function(){}
 
 ### ParallelComputeHelper
 ```r
-## if we can extract some common functions for distributed computing
+##` if we can extract some common functions for distributed computing
 ```
 
 ### DataDownloader
@@ -582,7 +582,6 @@ n_cores,wall_time){}
 
 #### Network Visualization
 ```r
-
 genEdgeFreq ->
 function(adjMat){}
 
@@ -635,11 +634,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMT
-YxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMx
-MTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NC
-w5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3
-MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMz
-IsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIz
-MDY0MTQyXX0=
+eyJoaXN0b3J5IjpbLTEwNzA2NTI1NCwtMjA4NzI3MDQwMiwxNT
+g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
+OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
+wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
+OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MT
+gsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDEx
+MzIyMDgyXX0=
 -->
