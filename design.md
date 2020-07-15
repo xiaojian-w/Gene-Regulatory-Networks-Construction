@@ -147,6 +147,7 @@ Four main parts:
 	- Clear / reset working directory
 	- Show file status
 - Execute Function
+- 
 
 ```mermaid
 sequenceDiagram
@@ -565,10 +566,15 @@ ridgeRegression ->
 function(y, ncx){}
 
 boot_stage1 ->
-function(){}
+function(adj_matrix_file,
+coef_matrix_file,nboots,nnodes,
+n_cores,wall_time{}
 
 boot_stage2 ->
-function(){}
+function(adj_matrix_file,
+coef_matrix_file,nboots,
+nnodes,
+n_cores,wall_time){}
 
 ```
 
@@ -627,7 +633,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTIzNDg1NSwxNTg3MDUyNzM2LDExNj
+eyJoaXN0b3J5IjpbLTE0NzYwNTAzOSwxNTg3MDUyNzM2LDExNj
 E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
 NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
 kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
