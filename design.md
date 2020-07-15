@@ -509,7 +509,8 @@ function(cis_type,p_value)
 combineEQTLResult ->
 function(common, low, rare){}
 
-
+selectSignificantForAll ->
+function(pvalue)
 ```
 
 FromTsplsVersion
@@ -560,11 +561,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5Mj
-Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
-MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
-g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
-MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOT
-cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
-MzE1M119
+eyJoaXN0b3J5IjpbMTQ5NDk1NzYxLC0xNjE3NjU3OTIzLC02NT
+YzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3
+LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMj
+kzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIw
+ODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIsLTE3Mz
+I3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMDE0MDc2
+OTE3XX0=
 -->
