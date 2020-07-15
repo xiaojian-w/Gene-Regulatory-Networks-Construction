@@ -202,14 +202,19 @@ data/
 		- result/
 settings/
 - config.conf
+
+# code files
+# `task_name/` folder contain the specific code for a specific task, like TCGA
 code/
 - file_management/
 	- 
-- gene_preprocess/
+- gexp_preprocess/
 	- task_name/
-	- genepreprocess.r
+		- task_preprocess.r
+	- gexp_preprocess.r
 - genotype_preprocess/
-	- 
+	- task_name/
+	- geno_preprocess.r
 - cis_eqtl_analysis/
 	- 
 - network_analysis/
@@ -645,11 +650,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAwNTgyMTEsLTIwODcyNzA0MDIsMT
-U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
-OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
-MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
-NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
-E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
-MTMyMjA4Ml19
+eyJoaXN0b3J5IjpbLTUwMjY1MDcxLC0yMDg3MjcwNDAyLDE1OD
+cwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5
+MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC
+02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5
+Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOC
+wtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEz
+MjIwODJdfQ==
 -->
