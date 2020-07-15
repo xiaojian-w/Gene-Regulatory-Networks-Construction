@@ -234,7 +234,7 @@ code/
 	- task_name/
 		- xxx_preprocess.r
 	- gexp_preprocess/
-		- 
+		- xxx.r
 	- genotype_preprocess/
 	- match_preprocess/
 
@@ -242,6 +242,7 @@ code/
 	- task_name/
 		- xxx.r
 	- cis_eqtl.r
+	- xxx.sh
 - network_analysis/
 	- network_anlaysis.r
 
@@ -678,11 +679,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLT
-IwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1
-NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MT
-UsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4
-Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3ND
-A2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwt
-MTg0ODI3NTg0NV19
+eyJoaXN0b3J5IjpbLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMT
+g5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2
+MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExND
+MsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDky
+NjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxOD
+YwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwt
+ODYyNDk3MDUxXX0=
 -->
