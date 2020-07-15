@@ -180,6 +180,14 @@ R style Guide:
 Shell Style Guide
 [https://google.github.io/styleguide/shellguide.html](https://google.github.io/styleguide/shellguide.html)
 
+### Reference Project
+
+ggplot 2
+[https://github.com/tidyverse/ggplot2](https://github.com/tidyverse/ggplot2)
+
+multiDimBio
+[https://github.com/scarpino/multiDimBio](https://github.com/scarpino/multiDimBio)
+
 ### Some Principles to Rewrite the Code
 
 1. Split code into different functions and files
@@ -688,11 +696,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk2MTA4NDMsLTEzNjAwMTgwNjEsLT
-E5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5
-OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MD
-I3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExNDMs
-MTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNj
-UwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYw
-OCwyOTIzMDc0MDZdfQ==
+eyJoaXN0b3J5IjpbOTUwMTc5NTE2LC0xMzYwMDE4MDYxLC0xOT
+U4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4
+MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNz
+c2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5
+NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MD
+EzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgs
+MjkyMzA3NDA2XX0=
 -->
