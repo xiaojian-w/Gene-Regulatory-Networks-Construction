@@ -481,7 +481,7 @@ function(pca_file,geno_id_file,gexp_file,out_gexp_file,out_geno_file){}
 
 ```r
 
-findIndex -> function(){}
+findIndex -> function(gene,type){}
 ```
 
 FromTsplsVersion
@@ -532,11 +532,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mz
-g3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2
-LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMT
-g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
-LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
-c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
-MzE2OV19
+eyJoaXN0b3J5IjpbLTE3ODQyMzQwNTksLTY1NjM5NzY1NCw5Mj
+Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
+MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
+g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
+MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOT
+cwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1
+MzE1M119
 -->
