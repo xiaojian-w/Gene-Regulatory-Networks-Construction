@@ -418,9 +418,16 @@ seperateSNP -> function(map_file,maf_file,geno_file){}
 ```r
 
 varianceStabTransformation ->
-function(mcounts,thresh,){}
+function(mcounts,thresh,out_gexp_id,out_gexp,out_gene_pos){}
+
+preprocessGeneExpression ->
+function(?){
+	downloadGeneExpressionData()
+	varianceStabTransformation()
+}
 
 ```
+##
 
 FromTsplsVersion
 ```r
@@ -469,7 +476,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTI0OTM3NywtMTM5MzcxODYwOCwyOT
+eyJoaXN0b3J5IjpbMTAwMDU2Njg5MSwtMTM5MzcxODYwOCwyOT
 IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
 MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
 YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
