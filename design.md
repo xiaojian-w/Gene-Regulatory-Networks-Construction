@@ -176,13 +176,24 @@ Shell Style Guide
 
 ### File Design
 
-```
+```r
+## data: original data files 
+## tmp:
+##
 genotype/
-- 
+- data/
+- tmp/
+- result/
 gene_expression/
-- gene_pos
+- data/
+- tmp/
+- result/
 cis-eqtl/
+- tmp/
+- result/
 network/
+- tmp/
+- result/
 
 ```
 
@@ -607,11 +618,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTk5MTgxLDE1ODcwNTI3MzYsMTE2MT
-YwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0
-MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOT
-I2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4
-NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC
-04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2
-NDE0Ml19
+eyJoaXN0b3J5IjpbLTg1NDQ1MTI5MiwxNTg3MDUyNzM2LDExNj
+E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
+NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
+kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
+ODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMi
+wtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMw
+NjQxNDJdfQ==
 -->
