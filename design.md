@@ -524,6 +524,7 @@ function(geno_id,gexp_id,out_geno,out_gene_exp){
 splitSNPByChr->
 function(matched_geno, geno_size, chr_count,out_path){}
 
+# compute minor allele frequency for each SNP
 computeMAF ->
 function(input_file){}
 
@@ -677,7 +678,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU3ODMwNTAsLTIwODcyNzA0MDIsMT
+eyJoaXN0b3J5IjpbLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMT
 U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
 OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
 MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
