@@ -528,7 +528,7 @@ function(){}
 checkGeneTypeOfEQTL ->
 function(){}
 
-getNetwork ->
+getNetworkData ->
 function()
 
 ```
@@ -553,7 +553,7 @@ function(){}
 ```r
 
 genEdgeFreq ->
-
+function(adjMat){}
 
 ```
 
@@ -594,11 +594,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA4NzIyMjYsMTU4NzA1MjczNiwxMT
-YxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMx
-MTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NC
-w5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3
-MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMz
-IsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIz
-MDY0MTQyXX0=
+eyJoaXN0b3J5IjpbOTAyNTE2MTY2LDE1ODcwNTI3MzYsMTE2MT
+YwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0
+MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOT
+I2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4
+NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC
+04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2
+NDE0Ml19
 -->
