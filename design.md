@@ -449,6 +449,9 @@ function(matched_geno, geno_size, chr_count,out_path){}
 computeMAF ->
 function(input_file){}
 
+seperateSNPByMAF ->
+function(geno_thresh){}
+
 ```
 
 
@@ -499,7 +502,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODAwNzYxMSw5MjY1MDEzMTcsLTI4Mz
+eyJoaXN0b3J5IjpbLTgwNTkyMTI5OCw5MjY1MDEzMTcsLTI4Mz
 g3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2
 LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMT
 g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
