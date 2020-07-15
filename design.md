@@ -181,20 +181,23 @@ Shell Style Guide
 ## tmp: temporary output files will only be used for once
 ## result: output files will be used in further steps
 genotype/
-- data/
-- 
-- tmp/
-- result/
+- task_name/
+	- data/
+	- tmp/
+	- result/
 gene_expression/
-- data/
-- tmp/
-- result/
+- task_name/
+	- data/
+	- tmp/
+	- result/
 cis-eqtl/
-- tmp/
-- result/
+- task_name/
+	- tmp/
+	- result/
 network/
-- tmp/
-- result/
+- task_name/
+	- tmp/
+	- result/
 
 ```
 
@@ -619,7 +622,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzgyMjU1OSwxNTg3MDUyNzM2LDExNj
+eyJoaXN0b3J5IjpbLTU0NTM0NzA4NiwxNTg3MDUyNzM2LDExNj
 E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
 NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
 kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
