@@ -182,7 +182,7 @@ Shell Style Guide
 
 1. Split code into different functions and files
 2. Keep the function as simple as possible
-3. Don't write similar code for more than 2 times, extract the common part
+3. Don't write similar code for more than 2 times, if so extract the common part into a seperate function
 4. Single function no more than 200 lines, single file no more than 400 lines (at best). 
 5. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
@@ -678,11 +678,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMT
-U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
-OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
-MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
-NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
-E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
-MTMyMjA4Ml19
+eyJoaXN0b3J5IjpbLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLT
+IwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1
+NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MT
+UsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4
+Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3ND
+A2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwt
+MTg0ODI3NTg0NV19
 -->
