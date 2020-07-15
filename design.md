@@ -520,7 +520,8 @@ function()
 
 ```r
 setUpDataForNetwork ->
-function()
+function(gexp_data,eqtl_data,sig_data, 
+cout_uncorrated_ind){}
 ```
 
 FromTsplsVersion
@@ -571,7 +572,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTAzMTM1NCwtMTYxNzY1NzkyMywtNj
+eyJoaXN0b3J5IjpbMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNj
 U2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4
 NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLT
 I5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIy
