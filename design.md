@@ -222,9 +222,9 @@ data/
 settings/
 - config.conf
 
-# code files
+# R code files
 # `task_name/` folder contain the specific code for a specific task, like `TCGA/` or `GTEx`
-code/
+R/
 - setting_control/
 	- setting_control.r
 - system_test/
@@ -252,7 +252,8 @@ code/
 	- network_anlaysis.r
 - main/
 	- main.r
-	- main.sh
+
+
 
 ```
 
@@ -687,11 +688,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxODk1MDIxLC0xMzYwMDE4MDYxLC0xOT
-U4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4
-MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNz
-c2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5
-NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MD
-EzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgs
-MjkyMzA3NDA2XX0=
+eyJoaXN0b3J5IjpbLTEwNzk2MTA4NDMsLTEzNjAwMTgwNjEsLT
+E5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5
+OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MD
+I3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExNDMs
+MTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNj
+UwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYw
+OCwyOTIzMDc0MDZdfQ==
 -->
