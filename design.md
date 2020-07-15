@@ -177,7 +177,10 @@ Shell Style Guide
 ### File Design
 
 ```
-/
+/genotype
+- /data
+	-  
+/genexp
 ```
 
 ### Setting File
@@ -557,7 +560,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNjczMTQzLC02NTYzOTc2NTQsOTI2NT
+eyJoaXN0b3J5IjpbMTEwMDY4NDE5LC02NTYzOTc2NTQsOTI2NT
 AxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4
 LDI5MjMwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04Nj
 I0OTcwNTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0
