@@ -191,7 +191,7 @@ multiDimBio
 bQTL
 [https://github.com/erdavenport/bQTL](https://github.com/erdavenport/bQTL)
 
-Phangorn
+**Phangorn** 
 [https://github.com/KlausVigo/phangorn](https://github.com/KlausVigo/phangorn)
 
 ### Some Principles to Rewrite the Code
@@ -199,7 +199,7 @@ Phangorn
 1. Split code into different functions and files
 2. Keep the function as simple as possible, especially split the data process / computing / plot / summary
 3. Don't write similar code for more than 2 times, if so extract the common part into a seperate function
-4. Single function no more than 200 lines, single file no more than 400 lines (at best). 
+4. Single function no more than 100 lines, single file no more than 300 lines (at best). 
 5. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
 7. Write comments for each file and each function according to the style guide
@@ -692,11 +692,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2LC0xMz
-YwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1
-MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1Mj
-czNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwt
-NzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1Nj
-M5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcs
-LTEzOTM3MTg2MDhdfQ==
+eyJoaXN0b3J5IjpbLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02Mj
+Y0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0
+Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MD
+QwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcs
+Mjc1MDY5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNz
+Y1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1
+LDk0Mjg0OTY4N119
 -->
