@@ -413,11 +413,12 @@ seperateSNP -> function(map_file,maf_file,geno_file){}
 
 
 
-#### Preprocess Gene Expression Data
+#### Preprocess Gene Expression Data (TCGA)
 
 ```r
 
-varianceSta
+varianceStabTransformation ->
+function(mcounts){}
 
 ```
 
@@ -468,7 +469,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDcyMzgxMSwtMTM5MzcxODYwOCwyOT
+eyJoaXN0b3J5IjpbLTU5NDI3NzA5MSwtMTM5MzcxODYwOCwyOT
 IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
 MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
 YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
