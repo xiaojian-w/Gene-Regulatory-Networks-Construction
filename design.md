@@ -180,8 +180,9 @@ Shell Style Guide
 
 ### Some Principles to Rewrite the Code
 
-1. Split code different functions and files
-2. Limit 
+1. Split code into different functions and files
+2. Single function no more than 200 lines, single file no more than 400 lines (at best)
+3. To make the code flex
 
 ## Detailed Design
 
@@ -672,7 +673,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTIyMjgzNCwtMjA4NzI3MDQwMiwxNT
+eyJoaXN0b3J5IjpbMTkzNzQxNTMwOCwtMjA4NzI3MDQwMiwxNT
 g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
 OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
 wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
