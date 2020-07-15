@@ -441,7 +441,12 @@ function(geno_id,gexp_id,out_geno,out_gene_exp){
 }
 ```
 
-#### Preprocess Genotype
+#### Preprocess Genotype(cont.)
+
+```r
+splitSNPByChr->
+function(matched_geno,)
+```
 
 
 FromTsplsVersion
@@ -491,11 +496,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5Mj
-MwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcw
-NTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2Nj
-I1NjY1Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5
-LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLT
-EzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4
-NDQ0NDFdfQ==
+eyJoaXN0b3J5IjpbLTI4ODUzMTUyMSw5NDI4NDk2ODcsLTEzOT
+M3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEz
+MzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOT
+IzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3
+MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5MTcsMT
+c2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LDE0OTE1
+MDQ1MjZdfQ==
 -->
