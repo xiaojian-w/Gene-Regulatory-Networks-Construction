@@ -522,7 +522,10 @@ function()
 setUpDataForNetwork ->
 function(gexp_data,eqtl_data,sig_data){}
 
-getUncorrelatedSNP ->
+getUncorrelatedSNPByGene ->
+function(){}
+
+checkGeneTypeOfEQTL ->
 function(){}
 
 ```
@@ -575,11 +578,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg2NjU3MzEsMTk1NDg5NzgxNSwtMT
-YxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1
-NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLT
-E4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4
-Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNj
-I1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2
-ODk5N119
+eyJoaXN0b3J5IjpbLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNj
+E3NjU3OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3
+MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMT
+g0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgy
+NzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2Mj
+U1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4
+OTk3XX0=
 -->
