@@ -542,17 +542,6 @@ function()
 
 ```
 
-FromTsplsVersion
-```r
-# check whether the data has been normalized
-checkNormalization-> function(){}
-# impute missing values if there are any
-imputeMissingValues -> function(){}
-# pc analysis
-pcAnalysis -> function(){}
-preprocessGeneExpression -> function(ge_file, gpos_file){
-}
-```
 
 #### Matching Gene Expression Data with Genotype Data
 
@@ -590,11 +579,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03ND
-k2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3
-NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMT
-M5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5
-MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC
-05MjMwNjQxNDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5
-MzcwXX0=
+eyJoaXN0b3J5IjpbLTczODU0Nzk0NywtMTM0NTcwMDM4NywyNz
+UwNjk5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3
+OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOT
+QyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEy
+NzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4ND
+UsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYw
+MDJdfQ==
 -->
