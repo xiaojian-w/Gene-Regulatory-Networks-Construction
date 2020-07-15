@@ -178,8 +178,7 @@ Shell Style Guide
 
 ```
 genotype/
-- data/
-	-  
+- 
 gene_expression/
 - gene_pos
 ```
@@ -561,7 +560,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY2NDk4ODksLTY1NjM5NzY1NCw5Mj
+eyJoaXN0b3J5IjpbLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5Mj
 Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
 MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
 g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
