@@ -418,7 +418,7 @@ seperateSNP -> function(map_file,maf_file,geno_file){}
 ```r
 
 varianceStabTransformation ->
-function(mcounts){}
+function(mcounts,thresh,){}
 
 ```
 
@@ -469,7 +469,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDI3NzA5MSwtMTM5MzcxODYwOCwyOT
+eyJoaXN0b3J5IjpbMTIzNTI0OTM3NywtMTM5MzcxODYwOCwyOT
 IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
 MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
 YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
