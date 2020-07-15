@@ -481,7 +481,7 @@ function(pca_file,geno_id_file,gexp_file,out_gexp_file,out_geno_file){}
 
 ```r
 
-findIndex -> 
+findCisPairIndex -> 
 function(gene_file,gexp_file,cis_type){}
 
 cisSummary ->
@@ -536,7 +536,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEzNjc4NTcsLTY1NjM5NzY1NCw5Mj
+eyJoaXN0b3J5IjpbLTIxMjgxODg4NTAsLTY1NjM5NzY1NCw5Mj
 Y1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2
 MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLT
 g2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0
