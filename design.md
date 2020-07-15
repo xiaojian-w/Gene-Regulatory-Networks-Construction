@@ -452,11 +452,11 @@ function(input_file){}
 filterSNPByMAF ->
 function(geno_file,out_file,thresh){}
 
-seperateSNPByMAF ->
-function(){}
-
 summarizeMAFforSNP ->
-function(gexp)
+function()
+
+seperateSNPByMAF ->
+function(input,output,type){}
 ```
 
 
@@ -509,11 +509,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTExODE4LDkyNjUwMTMxNywtMjgzOD
-c1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYs
-LTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xOD
-Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
-NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5XX0=
+eyJoaXN0b3J5IjpbLTkxNTE1Njg1NSw5MjY1MDEzMTcsLTI4Mz
+g3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2
+LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMT
+g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
+LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OV19
 -->
