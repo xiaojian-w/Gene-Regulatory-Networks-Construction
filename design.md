@@ -245,6 +245,9 @@ code/
 	- xxx.sh
 - network_analysis/
 	- network_anlaysis.r
+- main/
+	- main.r
+	- main.sh
 
 ```
 
@@ -679,11 +682,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMT
-g5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2
-MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExND
-MsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDky
-NjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxOD
-YwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwt
-ODYyNDk3MDUxXX0=
+eyJoaXN0b3J5IjpbLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMT
+gxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3
+MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OT
+IxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywt
+NjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OT
+Y4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgs
+LTI5Mzk5MTMzMl19
 -->
