@@ -191,12 +191,13 @@ multiDimBio
 ### Some Principles to Rewrite the Code
 
 1. Split code into different functions and files
-2. Keep the function as simple as possible
+2. Keep the function as simple as possible, especially split the data process / computing / plot / summary.
 3. Don't write similar code for more than 2 times, if so extract the common part into a seperate function
 4. Single function no more than 200 lines, single file no more than 400 lines (at best). 
 5. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
 7. Write comments for each file and each function according to the style guide
+
 
 
 ## Detailed Design
@@ -685,11 +686,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NDQ5NjA5LC0xMzYwMDE4MDYxLC0xOT
-U4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4
-MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNz
-c2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5
-NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MD
-EzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgs
-MjkyMzA3NDA2XX0=
+eyJoaXN0b3J5IjpbLTE5ODgwOTY0MjAsLTEzNjAwMTgwNjEsLT
+E5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5
+OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MD
+I3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExNDMs
+MTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNj
+UwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYw
+OCwyOTIzMDc0MDZdfQ==
 -->
