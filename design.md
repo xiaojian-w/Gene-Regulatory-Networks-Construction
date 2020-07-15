@@ -151,7 +151,8 @@ Four main parts:
 	- Memory / storage test
 	- time estimate
 - Parallel Compute Helper
-	- 
+	- Common functions for parallel computing
+
 
 ```mermaid
 sequenceDiagram
@@ -187,19 +188,18 @@ Shell Style Guide
 ## result: output files will be used in further steps
 data/
 - genotype/
-	- task_name/
-		- data/
-		- tmp/
-		- result/
+	- data/
+		- task_name/
+	- tmp/
+	- result/
 - gene_expression/
-	- task_name/
-		- data/
-		- tmp/
-		- result/
+	- data/
+		- task_name/
+	- tmp/
+	- result/
 - cis_eqtl/
-	- task_name/
-		- tmp/
-		- result/
+	- tmp/
+	- result/
 - network/
 	- task_name/
 		- tmp/
@@ -665,11 +665,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAxODE3NTgsLTIwODcyNzA0MDIsMT
-U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
-OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
-MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
-NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
-E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
-MTMyMjA4Ml19
+eyJoaXN0b3J5IjpbNjM3NDM4NDE5LC0yMDg3MjcwNDAyLDE1OD
+cwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5
+MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC
+02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5
+Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOC
+wtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEz
+MjIwODJdfQ==
 -->
