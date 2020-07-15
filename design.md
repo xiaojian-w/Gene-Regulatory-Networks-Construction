@@ -181,10 +181,11 @@ Shell Style Guide
 ### Some Principles to Rewrite the Code
 
 1. Split code into different functions and files
-2. Keep the function
-3. Single function no more than 200 lines, single file no more than 400 lines (at best). 
-4. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
-5. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
+2. Keep the function as simple as possible
+3. Extract the 
+4. Single function no more than 200 lines, single file no more than 400 lines (at best). 
+5. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
+6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
 
 
 ## Detailed Design
@@ -676,11 +677,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE1Mzc0NDIsLTIwODcyNzA0MDIsMT
-U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
-OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
-MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
-NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
-E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
-MTMyMjA4Ml19
+eyJoaXN0b3J5IjpbLTUwNTQxNjI1MywtMjA4NzI3MDQwMiwxNT
+g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
+OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
+wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
+OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MT
+gsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDEx
+MzIyMDgyXX0=
 -->
