@@ -277,7 +277,7 @@ function(lusc_path,luad_path,raw_count_path){}
 ```
 
 ### Execute Functions
-#### Preprocess Genotype Data
+#### Preprocess Genotype Data (TCGA)
 
 Plink Process
 ```r
@@ -318,7 +318,6 @@ plinkProcess -> function(?)
 Imputation
 
 ```r
-
 convertCoordinatesForTCGA -> 
 function(){}?
 
@@ -469,11 +468,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOT
-M5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4
-MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMj
-c4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5OTcsLTEwMTQwNzY5
-MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OSwtNjAxMjk1MDg3LD
-E0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3ODI1OTUsLTE3MzI2
-NjA0ODddfQ==
+eyJoaXN0b3J5IjpbLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xOD
+QyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3
+NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNT
+U1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOTc0Njg5
+OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1MzE2OS
+wtNjAxMjk1MDg3LDE0OTE1MDQ1MjYsLTYyNzg0NDQ0MSwzMTY3
+ODI1OTVdfQ==
 -->
