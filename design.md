@@ -186,7 +186,7 @@ Shell Style Guide
 4. Single function no more than 200 lines, single file no more than 400 lines (at best). 
 5. To make the code flexible, avoid directly writing specific file path or file name into functions, read path or file names by loading settings (if neccesary ) or defining constant (not so flexible, can be used for storing temporary data).
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
-7. Write comment for each file and each 
+7. Write comments for each file and each function according to the style guide
 
 
 ## Detailed Design
@@ -683,7 +683,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc1MjI4MjEsLTE5NTgyMTc1MTAsLT
+eyJoaXN0b3J5IjpbLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLT
 k2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4
 NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MD
 AzODcsMjc1MDY5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwt
