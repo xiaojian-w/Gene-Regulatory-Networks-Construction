@@ -468,7 +468,7 @@ function(?){
 combine process
 
 ```r
-# combine the preprocess for TCGA
+# main function for preprocessing TCGA
 genotypePreprocess -> 
 function(?){
 	pinkProcess()
@@ -677,11 +677,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTAwMTk5NSwtMjA4NzI3MDQwMiwxNT
-g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
-OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
-wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
-OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MT
-gsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDEx
-MzIyMDgyXX0=
+eyJoaXN0b3J5IjpbLTE1ODU3ODMwNTAsLTIwODcyNzA0MDIsMT
+U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
+OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
+MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
+NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
+E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
+MTMyMjA4Ml19
 -->
