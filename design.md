@@ -200,6 +200,7 @@ data/
 		- tmp/
 		- result/
 settings
+- config.conf
 
 ```
 
@@ -624,7 +625,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjA0NDkzMiwxNTg3MDUyNzM2LDExNj
+eyJoaXN0b3J5IjpbLTQ1MzYxMDgxNSwxNTg3MDUyNzM2LDExNj
 E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
 NDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0LD
 kyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4NywtMTM5Mzcx
