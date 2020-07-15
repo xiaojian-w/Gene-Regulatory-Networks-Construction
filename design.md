@@ -147,7 +147,11 @@ Four main parts:
 	- Clear / reset working directory
 	- Show file status
 - Execute Function
-- 
+- System Test
+	- Memory / storage test
+	- time estimate
+- Parallel Compute Helper
+	- 
 
 ```mermaid
 sequenceDiagram
@@ -661,11 +665,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNDA5NDI3LC0yMDg3MjcwNDAyLDE1OD
-cwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5
-MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIzLC
-02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOTQyODQ5
-Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYxOC
-wtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMTEz
-MjIwODJdfQ==
+eyJoaXN0b3J5IjpbLTExNjAxODE3NTgsLTIwODcyNzA0MDIsMT
+U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
+OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
+MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
+NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
+E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
+MTMyMjA4Ml19
 -->
