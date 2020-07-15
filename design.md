@@ -188,6 +188,9 @@ ggplot 2
 multiDimBio
 [https://github.com/scarpino/multiDimBio](https://github.com/scarpino/multiDimBio)
 
+bQTL
+[https://github.com/erdavenport/bQTL](https://github.com/erdavenport/bQTL)
+
 ### Some Principles to Rewrite the Code
 
 1. Split code into different functions and files
@@ -686,7 +689,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzEyODUyOCwtMTM2MDAxODA2MSwtMT
+eyJoaXN0b3J5IjpbLTYyNjQ0NjI2NiwtMTM2MDAxODA2MSwtMT
 k1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5
 ODIzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMj
 c3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0Mywx
