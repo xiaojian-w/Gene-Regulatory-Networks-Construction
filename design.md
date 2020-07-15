@@ -540,7 +540,11 @@ function(nb){}
 ridgeRegression ->
 function(y, ncx){}
 
-bootstrap ->
+boot_stage1 ->
+function(gene_data,
+cis_eqtl_data,){}
+
+boot_stage2 ->
 function(){}
 
 ```
@@ -587,11 +591,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzM5NzEyMywtMTM0NTcwMDM4NywyNz
-UwNjk5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3
-OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOT
-QyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEy
-NzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4ND
-UsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYw
-MDJdfQ==
+eyJoaXN0b3J5IjpbODg1NTI5ODMzLC0xMzQ1NzAwMzg3LDI3NT
+A2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5
+MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5ND
+I4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3
+NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NS
+wxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAw
+Ml19
 -->
