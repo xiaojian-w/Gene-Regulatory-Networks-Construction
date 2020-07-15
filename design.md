@@ -460,7 +460,9 @@ function(geno_data,out_file,
 out_pos_file,type){}
 
 PCAStratification ->
-function(geno_file,){}
+function(geno_file,map_file,
+fam_file,geno_id_file,
+out_geno,out_snp,out_geno_id){}
 
 ```
 
@@ -482,7 +484,8 @@ preprocessGeneExpression -> function(ge_file, gpos_file){
 #### Matching Gene Expression Data with Genotype Data
 
 ```r
-matchGenotypeAndGeneExp -> function(gexp_file, 
+matchGenotypeAndGeneExp -> 
+function(gexp_file, 
 gene_pos_file, 
 geno_file, 
 clean_genotype_file){}
@@ -514,11 +517,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgxODYzNDksOTI2NTAxMzE3LC0yOD
-M4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQw
-NiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLT
-E4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1
-Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMD
-k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
-NTMxNjldfQ==
+eyJoaXN0b3J5IjpbLTc0Njc4NTA3MSw5MjY1MDEzMTcsLTI4Mz
+g3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2
+LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMT
+g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
+LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OV19
 -->
