@@ -446,6 +446,8 @@ function(geno_id,gexp_id,out_geno,out_gene_exp){
 splitSNPByChr->
 function(matched_geno, geno_size, chr_count,out_path){}
 
+computeMAF ->
+function(input_file){}
 
 ```
 
@@ -497,11 +499,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NTAxMzE3LC0yODM4NzU3MjUsOTQyOD
-Q5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEyNzYx
-OCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4NDUsMT
-EzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYwMDIs
-LTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMDk3NDY4OTk3LC0xMD
-E0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1NTMxNjksLTYwMTI5
-NTA4N119
+eyJoaXN0b3J5IjpbMTcxODAwNzYxMSw5MjY1MDEzMTcsLTI4Mz
+g3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2
+LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMT
+g0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2NjU2
+LDYyNTU1NjAwMiwtMTczMjc4OTM3MCwzOTcwNDMwMDksLTIwOT
+c0Njg5OTcsLTEwMTQwNzY5MTcsMTc2NTQ1MzE1MywtMTMwNzU1
+MzE2OV19
 -->
