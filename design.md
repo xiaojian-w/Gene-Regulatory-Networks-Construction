@@ -146,6 +146,8 @@ Four main parts:
 	- Check validity of input and output files
 	- Clear / reset working directory
 	- Show file status
+- Downloader
+	- Download files
 - Execute Function
 - System Test
 	- Memory / storage test
@@ -683,11 +685,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLT
-k2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4
-NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MD
-AzODcsMjc1MDY5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwt
-MTYxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzOD
-c1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYs
-LTE4NDIxMjc2MThdfQ==
+eyJoaXN0b3J5IjpbMTg4ODY1MjQ3NywtMTM2MDAxODA2MSwtMT
+k1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5
+ODIzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMj
+c3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0Mywx
+OTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOTI2NT
+AxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4
+LDI5MjMwNzQwNl19
 -->
