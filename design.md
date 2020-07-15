@@ -449,10 +449,15 @@ function(matched_geno, geno_size, chr_count,out_path){}
 computeMAF ->
 function(input_file){}
 
-seperateSNPByMAF ->
+filterSNPByMAF ->
 function(geno_file,out_file,thresh){}
 
+seperateSNPByMAF ->
+function(){}
+
 ```
+
+
 
 
 FromTsplsVersion
@@ -502,11 +507,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwODA1NTAxLDkyNjUwMTMxNywtMjgzOD
-c1NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYs
-LTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xOD
-Q4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYs
-NjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5Nz
-Q2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUz
-MTY5XX0=
+eyJoaXN0b3J5IjpbLTExMDU4NTczMDEsOTI2NTAxMzE3LC0yOD
+M4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQw
+NiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLT
+E4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1
+Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMD
+k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
+NTMxNjldfQ==
 -->
