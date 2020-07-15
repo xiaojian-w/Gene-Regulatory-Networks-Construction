@@ -431,13 +431,17 @@ function(?){
 
 ```r
 
-matchGeneExpressionAndGenotype ->
-function(geno_id,gexp_id,out_geno_idx,out_geno_id,out_gene_exp){}
-
 extractGenotypeData ->
 function(geno_idx,geno,matched_geno){}
 
+matchGeneExpressionAndGenotype ->
+function(geno_id,gexp_id,out_geno,out_gene_exp){
+	...
+	extractGenotypeData(geno_idx,geno,out_geno)
+}
 ```
+
+
 
 FromTsplsVersion
 ```r
@@ -486,7 +490,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzg4MTk2MywtMTM5MzcxODYwOCwyOT
+eyJoaXN0b3J5IjpbLTY4MzQ0NjY5NiwtMTM5MzcxODYwOCwyOT
 IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
 MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
 YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
