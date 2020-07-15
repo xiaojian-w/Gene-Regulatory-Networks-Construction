@@ -233,29 +233,21 @@ settings/
 # R code files
 # `task_name/` folder contain the specific code for a specific task, like `TCGA/` or `GTEx`
 R/
-- setting_control/
-	- setting_control.r
-- system_test/
-	- system_test.r
-- downloader
-	- downloader.r
-- file_management/
-	- file_management.r
-- parallel_compute_helper/
-	- pallel_compute_helper.r
+- setting_control.r
+- system_test.r
+- downloader.r
+- file_management.r
+- pallel_compute_helper.r
 - preprocess/
 	- task_name/
 		- xxx_preprocess.r
-	- gexp_preprocess/
-		- xxx.r
-	- genotype_preprocess/
-	- match_preprocess/
+	- gexp_preprocess.r
+	- genotype_preprocess.r
+	- match_preprocess.r
 
 - cis_eqtl_analysis/
-	- task_name/
-		- xxx.r
+
 	- cis_eqtl.r
-	- xxx.sh
 - network_analysis/
 	- network_anlaysis.r
 - main/
@@ -696,11 +688,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMTc5NTE2LC0xMzYwMDE4MDYxLC0xOT
-U4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4
-MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNz
-c2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5
-NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MD
-EzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgs
-MjkyMzA3NDA2XX0=
+eyJoaXN0b3J5IjpbMTc3MDg3MDA2MiwtMTM2MDAxODA2MSwtMT
+k1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5
+ODIzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMj
+c3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0Mywx
+OTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOTI2NT
+AxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4
+LDI5MjMwNzQwNl19
 -->
