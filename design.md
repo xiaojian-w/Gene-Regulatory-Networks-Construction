@@ -535,14 +535,14 @@ function()
 #### Boostrap Analysis
 ```r
 genBootData ->
-function(nb){}
+function(nb,gene_data,
+cis_eqtl_data,net_idx){}
 
 ridgeRegression ->
 function(y, ncx){}
 
 boot_stage1 ->
-function(gene_data,
-cis_eqtl_data,net_idx){}
+function(){}
 
 boot_stage2 ->
 function(){}
@@ -591,11 +591,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTYwMjc3NiwtMTM0NTcwMDM4NywyNz
-UwNjk5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3
-OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOT
-QyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEy
-NzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLTE4NDgyNzU4ND
-UsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1Niw2MjU1NTYw
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMz
+Q1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4
+MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLT
+I4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3
+NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MS
+wtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOTIzMDY0MTQyLDY2MjU2
+NjU2XX0=
 -->
