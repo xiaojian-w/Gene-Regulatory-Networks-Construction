@@ -244,14 +244,11 @@ R/
 	- gexp_preprocess.r
 	- genotype_preprocess.r
 	- match_preprocess.r
-
 - cis_eqtl_analysis/
-
 	- cis_eqtl.r
 - network_analysis/
 	- network_anlaysis.r
-- main/
-	- main.r
+- main.r
 
 
 
@@ -688,11 +685,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDg3MDA2MiwtMTM2MDAxODA2MSwtMT
-k1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5
-ODIzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMj
-c3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0Mywx
-OTU0ODk3ODE1LC0xNjE3NjU3OTIzLC02NTYzOTc2NTQsOTI2NT
-AxMzE3LC0yODM4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4
-LDI5MjMwNzQwNl19
+eyJoaXN0b3J5IjpbNDA1NDQ5NjA5LC0xMzYwMDE4MDYxLC0xOT
+U4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4
+MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNz
+c2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5
+NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MD
+EzMTcsLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOTM3MTg2MDgs
+MjkyMzA3NDA2XX0=
 -->
