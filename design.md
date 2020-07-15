@@ -435,7 +435,7 @@ matchGeneExpressionAndGenotype ->
 function(geno_id,gexp_id,out_geno_idx,out_geno_id,out_gene_exp){}
 
 extractGenotypeData ->
-function(geno_idx){}
+function(geno_idx,geno,matched_geno){}
 
 ```
 
@@ -486,11 +486,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzEzODcyLC0xMzkzNzE4NjA4LDI5Mj
-MwNzQwNiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcw
-NTEsLTE4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2Nj
-I1NjY1Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5
-LC0yMDk3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLT
-EzMDc1NTMxNjksLTYwMTI5NTA4NywxNDkxNTA0NTI2LC02Mjc4
-NDQ0NDFdfQ==
+eyJoaXN0b3J5IjpbMTcyMzg4MTk2MywtMTM5MzcxODYwOCwyOT
+IzMDc0MDYsLTE4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3
+MDUxLC0xODQ4Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNj
+YyNTY2NTYsNjI1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAw
+OSwtMjA5NzQ2ODk5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC
+0xMzA3NTUzMTY5LC02MDEyOTUwODcsMTQ5MTUwNDUyNiwtNjI3
+ODQ0NDQxXX0=
 -->
