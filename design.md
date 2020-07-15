@@ -468,6 +468,10 @@ function(geno_file,map_file,
 fam_file,geno_id_file,
 out_geno,out_snp,out_geno_id){}
 
+genoPCA ->
+function(path,geno_file,
+geno_id_file,)
+
 adjustGeneExpression ->
 function(){}
 
@@ -523,7 +527,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUzMjE5MzQsOTI2NTAxMzE3LC0yOD
+eyJoaXN0b3J5IjpbLTEzNjA1NzM2MDAsOTI2NTAxMzE3LC0yOD
 M4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQw
 NiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLT
 E4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1
