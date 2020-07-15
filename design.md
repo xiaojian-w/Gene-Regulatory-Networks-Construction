@@ -460,7 +460,7 @@ function(geno_data,out_file,
 out_pos_file,type){}
 
 PCAStratification ->
-function(input,output){}
+function(geno_file,){}
 
 ```
 
@@ -514,7 +514,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIxMTI3OTQsOTI2NTAxMzE3LC0yOD
+eyJoaXN0b3J5IjpbLTE5MzgxODYzNDksOTI2NTAxMzE3LC0yOD
 M4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQw
 NiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLT
 E4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1
