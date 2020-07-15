@@ -229,6 +229,7 @@ code/
 		- xxx.r
 	- xxx.sh
 	- geno_preprocess.r
+	- 
 - cis_eqtl_analysis/
 	- task_name/
 		- xxx.r
@@ -511,6 +512,7 @@ function(geno_id,gexp_id,out_geno,out_gene_exp){
 #### Preprocess Genotype(cont.)
 
 ```r
+# split SNP by chromosome
 splitSNPByChr->
 function(matched_geno, geno_size, chr_count,out_path){}
 
@@ -667,7 +669,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgzMDI4NjEsLTIwODcyNzA0MDIsMT
+eyJoaXN0b3J5IjpbLTEyMDUzNTMyNjMsLTIwODcyNzA0MDIsMT
 U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
 OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
 MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
