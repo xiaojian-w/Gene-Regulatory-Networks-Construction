@@ -178,6 +178,8 @@ R style Guide:
 Shell Style Guide
 [https://google.github.io/styleguide/shellguide.html](https://google.github.io/styleguide/shellguide.html)
 
+### Some Pribci
+
 ## Detailed Design
 
 ### File Design
@@ -220,16 +222,14 @@ code/
 	- file_management.r
 - parallel_compute_helper/
 	- pallel_compute_helper.r
-- gexp_preprocess/
+- preprocess/
 	- task_name/
 		- xxx_preprocess.r
-	- gexp_preprocess.r
-- genotype_preprocess/
-	- task_name/
-		- xxx.r
-	- xxx.sh
-	- geno_preprocess.r
-	- 
+	- gexp_preprocess/
+		- 
+	- genotype_preprocess/
+	- match_preprocess/
+
 - cis_eqtl_analysis/
 	- task_name/
 		- xxx.r
@@ -669,11 +669,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzNTMyNjMsLTIwODcyNzA0MDIsMT
-U4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2
-OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5Mj
-MsLTY1NjM5NzY1NCw5MjY1MDEzMTcsLTI4Mzg3NTcyNSw5NDI4
-NDk2ODcsLTEzOTM3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3Nj
-E4LC0yOTM5OTEzMzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwx
-MTMyMjA4Ml19
+eyJoaXN0b3J5IjpbMTUzOTAwMzI2MCwtMjA4NzI3MDQwMiwxNT
+g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
+OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
+wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
+OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MT
+gsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDEx
+MzIyMDgyXX0=
 -->
