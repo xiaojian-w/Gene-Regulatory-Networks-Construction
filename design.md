@@ -520,8 +520,11 @@ function()
 
 ```r
 setUpDataForNetwork ->
-function(gexp_data,eqtl_data,sig_data, 
-cout_uncorrated_ind){}
+function(gexp_data,eqtl_data,sig_data){}
+
+getUncorrelatedSNP ->
+function(){}
+
 ```
 
 FromTsplsVersion
@@ -572,11 +575,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNj
-U2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0OTY4
-NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4NDIxMjc2MTgsLT
-I5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mjc1ODQ1LDExMzIy
-MDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNjI1NTU2MDAyLC0xNz
-MyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2ODk5NywtMTAxNDA3
-NjkxN119
+eyJoaXN0b3J5IjpbLTEyODg2NjU3MzEsMTk1NDg5NzgxNSwtMT
+YxNzY1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1
+NzI1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLT
+E4NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4
+Mjc1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNj
+I1NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2
+ODk5N119
 -->
