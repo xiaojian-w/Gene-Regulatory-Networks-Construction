@@ -445,7 +445,9 @@ function(geno_id,gexp_id,out_geno,out_gene_exp){
 
 ```r
 splitSNPByChr->
-function(matched_geno,)
+function(matched_geno, geno_size, chr_count,out_path){}
+
+
 ```
 
 
@@ -496,7 +498,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODUzMTUyMSw5NDI4NDk2ODcsLTEzOT
+eyJoaXN0b3J5IjpbLTI4Mzg3NTcyNSw5NDI4NDk2ODcsLTEzOT
 M3MTg2MDgsMjkyMzA3NDA2LC0xODQyMTI3NjE4LC0yOTM5OTEz
 MzIsLTg2MjQ5NzA1MSwtMTg0ODI3NTg0NSwxMTMyMjA4MiwtOT
 IzMDY0MTQyLDY2MjU2NjU2LDYyNTU1NjAwMiwtMTczMjc4OTM3
