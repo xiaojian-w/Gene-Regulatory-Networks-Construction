@@ -531,10 +531,14 @@ function(){}
 getNetwork ->
 function()
 
-
 ```
 #### Boostrap Analysis
 ```r
+genBootData ->
+function(nb){}
+bootstrap ->
+function(){}
+
 ```
 
 #### Network Visualization
@@ -579,7 +583,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODU0Nzk0NywtMTM0NTcwMDM4NywyNz
+eyJoaXN0b3J5IjpbMTkyMjIwOTQxOSwtMTM0NTcwMDM4NywyNz
 UwNjk5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3
 OTIzLC02NTYzOTc2NTQsOTI2NTAxMzE3LC0yODM4NzU3MjUsOT
 QyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQwNiwtMTg0MjEy
