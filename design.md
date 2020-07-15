@@ -460,7 +460,7 @@ function(geno_data,out_file,
 out_pos_file,type){}
 
 PCAStratification ->
-function(){}
+function(input,output){}
 
 ```
 
@@ -514,11 +514,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1MTcxLDkyNjUwMTMxNywtMjgzODc1Nz
-I1LDk0Mjg0OTY4NywtMTM5MzcxODYwOCwyOTIzMDc0MDYsLTE4
-NDIxMjc2MTgsLTI5Mzk5MTMzMiwtODYyNDk3MDUxLC0xODQ4Mj
-c1ODQ1LDExMzIyMDgyLC05MjMwNjQxNDIsNjYyNTY2NTYsNjI1
-NTU2MDAyLC0xNzMyNzg5MzcwLDM5NzA0MzAwOSwtMjA5NzQ2OD
-k5NywtMTAxNDA3NjkxNywxNzY1NDUzMTUzLC0xMzA3NTUzMTY5
-XX0=
+eyJoaXN0b3J5IjpbLTEyNDIxMTI3OTQsOTI2NTAxMzE3LC0yOD
+M4NzU3MjUsOTQyODQ5Njg3LC0xMzkzNzE4NjA4LDI5MjMwNzQw
+NiwtMTg0MjEyNzYxOCwtMjkzOTkxMzMyLC04NjI0OTcwNTEsLT
+E4NDgyNzU4NDUsMTEzMjIwODIsLTkyMzA2NDE0Miw2NjI1NjY1
+Niw2MjU1NTYwMDIsLTE3MzI3ODkzNzAsMzk3MDQzMDA5LC0yMD
+k3NDY4OTk3LC0xMDE0MDc2OTE3LDE3NjU0NTMxNTMsLTEzMDc1
+NTMxNjldfQ==
 -->
