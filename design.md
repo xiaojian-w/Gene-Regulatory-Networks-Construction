@@ -200,8 +200,9 @@ data/
 	- task_name/
 		- tmp/
 		- result/
-settings
+settings/
 - config.conf
+code/
 
 ```
 
@@ -527,7 +528,7 @@ cisAnalysis ->
 function(cis_type, n_gene, n_jobs...?){}
 
 calcPValue -> 
-function(cis_type)
+function(cis_type){}
 
 selectSignificant -> 
 function(cis_type,p_value)
@@ -634,7 +635,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA2NTI1NCwtMjA4NzI3MDQwMiwxNT
+eyJoaXN0b3J5IjpbMTMwNTYwMjgzNSwtMjA4NzI3MDQwMiwxNT
 g3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5
 OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMy
 wtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1LDk0Mjg0
