@@ -366,7 +366,14 @@ function(lusc_path,luad_path,raw_count_path){}
 ```
 
 ### Execute Functions
+
 #### Preprocess Genotype Data (TCGA)
+
+Calling germline variants
+```r
+matchLUADSample ->
+function(){}
+```
 
 Plink Process
 ```r
@@ -692,11 +699,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02Mj
-Y0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0
-Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MD
-QwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcs
-Mjc1MDY5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNz
-Y1NzkyMywtNjU2Mzk3NjU0LDkyNjUwMTMxNywtMjgzODc1NzI1
-LDk0Mjg0OTY4N119
+eyJoaXN0b3J5IjpbLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNT
+Q2NTg5MCwtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3
+NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MD
+UsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNzc2LC0x
+MzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OT
+c4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcs
+LTI4Mzg3NTcyNV19
 -->
