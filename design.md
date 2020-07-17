@@ -515,12 +515,13 @@ combine process
 
 ```r
 # main function for preprocessing TCGA
-genotypePreprocess -> 
-function(?){
+genotypePreprocess <-
+function(){
 	pinkProcess()
 	imputationProcess()
 }
 ```
+
 
 FromTsplsVersion
 ```r
@@ -723,11 +724,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjY3MDY3Miw3Mjc0MDAxNjIsLTE0OD
-cyNjYzMjMsLTM4NTc1MDUyOSwtMjEyMzMyMDQzNCwtNDY2NDIz
-NjY0LC0xNTQxMzM2OTM2LC02NTI1NTcwMCwtOTc3MzAxMzI2LC
-0yMjU0NjU4OTAsLTYyNjQ0NjI2NiwtMTM2MDAxODA2MSwtMTk1
-ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5OD
-IzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMjc3
-NiwtMTM0NTcwMDM4N119
+eyJoaXN0b3J5IjpbLTM3NjM1NjA5NywxODIyNjcwNjcyLDcyNz
+QwMDE2MiwtMTQ4NzI2NjMyMywtMzg1NzUwNTI5LC0yMTIzMzIw
+NDM0LC00NjY0MjM2NjQsLTE1NDEzMzY5MzYsLTY1MjU1NzAwLC
+05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2LC0xMzYw
+MDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1Mj
+M3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1Mjcz
+NiwxMTYxNjAyNzc2XX0=
 -->
