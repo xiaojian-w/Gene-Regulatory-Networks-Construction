@@ -230,8 +230,8 @@ settings/
 
 # code files
 # `task_name/` folder contain the specific code for a specific task, like `TCGA/` or `GTEx`
-script/
-- Setting_control.R
+scripts/
+- setting_control.R
 - system_test.R
 - downloader.R
 - file_management.R
@@ -722,11 +722,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NzUyNTEsLTE0ODcyNjYzMjMsLT
-M4NTc1MDUyOSwtMjEyMzMyMDQzNCwtNDY2NDIzNjY0LC0xNTQx
-MzM2OTM2LC02NTI1NTcwMCwtOTc3MzAxMzI2LC0yMjU0NjU4OT
-AsLTYyNjQ0NjI2NiwtMTM2MDAxODA2MSwtMTk1ODIxNzUxMCwt
-OTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5ODIzNjA1LC0yMD
-g3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NTcw
-MDM4NywyNzUwNjk5MjFdfQ==
+eyJoaXN0b3J5IjpbNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zOD
+U3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMz
+NjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC
+02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2
+NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4Nz
+I3MDQwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAz
+ODcsMjc1MDY5OTIxXX0=
 -->
