@@ -204,58 +204,16 @@ bQTL
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
 7. Write comments for each file and each function according to the style guide
 
+## Data Flow
+
+### Data structure
+
 
 
 ## Detailed Design
 
-### File Design
 
-```r
-## data: original data files 
-## tmp: temporary output files will only be used for once
-## result: output files will be used in further steps
-data/
-- genotype/
-	- data/
-		- task_name/
-	- tmp/
-	- result/
-- gene_expression/
-	- data/
-		- task_name/
-	- tmp/
-	- result/
-- cis_eqtl/
-	- tmp/
-		- task_name/
-	- result/
-		- task_name/
-- network/
-	- task_name/
-		- tmp/
-		- result/
-settings/
-- config.conf
 
-# code files
-# `task_name/` folder contain the specific code for a specific task, like `TCGA/` or `GTEx`
-script/
-- setting_control.r
-- system_test.r
-- downloader.r
-- file_management.r
-- pallel_compute_helper.r
-- preprocess/
-	- task_name/
-		- xxx_preprocess.r
-	- gexp_preprocess.r
-	- genotype_preprocess.r
-	- match_preprocess.r
-- cis_eqtl_analysis/
-	- cis_eqtl.r
-- network_analysis/
-	- network_anlaysis.r
-- main.r
 
 
 
@@ -698,11 +656,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEzMzY5MzYsLTY1MjU1NzAwLC05Nz
-czMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2LC0xMzYwMDE4
-MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3Nz
-IsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwx
-MTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5Nj
-MxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1
-NCw5MjY1MDEzMTddfQ==
+eyJoaXN0b3J5IjpbLTE3ODI5NDA1MjQsLTE1NDEzMzY5MzYsLT
+Y1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2
+MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4ND
+gsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIs
+MTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NT
+A2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5
+MjMsLTY1NjM5NzY1NF19
 -->
