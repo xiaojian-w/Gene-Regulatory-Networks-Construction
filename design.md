@@ -208,29 +208,13 @@ bQTL
 ### File Design
 
 ```r
-## data: original data files 
-## tmp: temporary output files will only be used for once
-## result: output files will be used in further steps
+## data files
 data/
 - genotype/
-	- data/
-		- task_name/
-	- tmp/
-	- result/
 - gene_expression/
-	- data/
-		- task_name/
-	- tmp/
-	- result/
 - cis_eqtl/
-	- tmp/
-		- task_name/
-	- result/
-		- task_name/
 - network/
-	- task_name/
-		- tmp/
-		- result/
+
 settings/
 - config.conf
 
@@ -716,11 +700,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkzODI4NjIsLTE1NDEzMzY5MzYsLT
-Y1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2
-MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4ND
-gsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIs
-MTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NT
-A2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5
-MjMsLTY1NjM5NzY1NF19
+eyJoaXN0b3J5IjpbMTE2MjUxNjI3OSwtMTU0MTMzNjkzNiwtNj
+UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
+NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
+wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
+NTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MD
+Y5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1Nzky
+MywtNjU2Mzk3NjU0XX0=
 -->
