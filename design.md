@@ -248,7 +248,7 @@ script/
 | Index | Path | Name| Format|
 |--|--| --|--|
 | 1 | data/genotype/ | clean_genotype.ped||
-| 2 |  |  ||
+| 2 | data/genotype/ |  ||
 | 3 |  | ||
 
 ### Data Flow
@@ -701,7 +701,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDM2NjcxOSwtMTU0MTMzNjkzNiwtNj
+eyJoaXN0b3J5IjpbLTQ2NjQyMzY2NCwtMTU0MTMzNjkzNiwtNj
 UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
 NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
 wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
