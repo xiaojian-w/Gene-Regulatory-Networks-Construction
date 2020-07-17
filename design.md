@@ -215,6 +215,7 @@ data/
 - cis_eqtl/
 - network/
 
+## setting files
 settings/
 - config.conf
 
@@ -246,7 +247,7 @@ script/
 
 | Index | Path | Name| Format|
 |--|--| --|--|
-| 1 |  | clean_genotype.ped||
+| 1 | data/genotype/ | clean_genotype.ped||
 | 2 |  |  ||
 | 3 |  | ||
 
@@ -700,7 +701,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjUxNjI3OSwtMTU0MTMzNjkzNiwtNj
+eyJoaXN0b3J5IjpbMTU5NDM2NjcxOSwtMTU0MTMzNjkzNiwtNj
 UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
 NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
 wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
