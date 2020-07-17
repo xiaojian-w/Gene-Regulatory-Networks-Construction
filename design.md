@@ -258,11 +258,14 @@ script/
 
 ```
 
-### Data structure
+### Data summary
 
-| Index | Path | Name| |
+| Index | Path | Name| Format|
 |--|--| --|--|
-| 1 |  | |
+| 1 |  | ||
+| 2 |  | ||
+| 3 |  | ||
+
 
 
 
@@ -708,11 +711,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5OTYwOTcsLTE1NDEzMzY5MzYsLTY1Mj
-U1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2
-LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLT
-E4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4
-NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OT
-kyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMs
-LTY1NjM5NzY1NF19
+eyJoaXN0b3J5IjpbMTA0NDQ2MTU3NCwtMTU0MTMzNjkzNiwtNj
+UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
+NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
+wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
+NTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MD
+Y5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1Nzky
+MywtNjU2Mzk3NjU0XX0=
 -->
