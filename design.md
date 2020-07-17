@@ -204,7 +204,7 @@ bQTL
 6. For collaboration work, define the input and output format in detail of each block for others to reference. Within the block, input/output can be more flexible.
 7. Write comments for each file and each function according to the style guide
 
-## Data Flow
+## Data and File Design
 ### File Design
 
 ```r
@@ -262,10 +262,15 @@ script/
 
 | Index | Path | Name| Format|
 |--|--| --|--|
-| 1 |  | ||
-| 2 |  | ||
+| 1 |  | clean_genotype.ped||
+| 2 |  |  ||
 | 3 |  | ||
 
+### Data Flow
+
+| Step | Input | Output |
+|--|--| --|
+| Genotype |  | |
 
 
 
@@ -711,11 +716,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDQ2MTU3NCwtMTU0MTMzNjkzNiwtNj
-UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
-NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
-wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
-NTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MD
-Y5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1Nzky
-MywtNjU2Mzk3NjU0XX0=
+eyJoaXN0b3J5IjpbLTU1NTAzNTQwLC0xNTQxMzM2OTM2LC02NT
+I1NTcwMCwtOTc3MzAxMzI2LC0yMjU0NjU4OTAsLTYyNjQ0NjI2
+NiwtMTM2MDAxODA2MSwtMTk1ODIxNzUxMCwtOTY0NTQ3ODQ4LC
+0xODE0NTIzNzcyLC0xODk5ODIzNjA1LC0yMDg3MjcwNDAyLDE1
+ODcwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NTcwMDM4NywyNzUwNj
+k5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1LC0xNjE3NjU3OTIz
+LC02NTYzOTc2NTRdfQ==
 -->
