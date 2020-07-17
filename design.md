@@ -569,8 +569,7 @@ fam_file,geno_id_file,
 out_geno_eigenstrat,out_snp,out_geno_id){}
 
 genoPCA ->
-function(path,geno_file,
-geno_files,out_pca_files)
+function(geno_files,out_pca_files)
 
 adjustGeneExpression ->
 function(pca_file,geno_id_file,gexp_file,out_gexp_file,out_geno_file){}
@@ -699,11 +698,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNT
-Q2NTg5MCwtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3
-NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MD
-UsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNjAyNzc2LC0x
-MzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OT
-c4MTUsLTE2MTc2NTc5MjMsLTY1NjM5NzY1NCw5MjY1MDEzMTcs
-LTI4Mzg3NTcyNV19
+eyJoaXN0b3J5IjpbLTY4MDEwOTU3NywtNjUyNTU3MDAsLTk3Nz
+MwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYyNjYsLTEzNjAwMTgw
+NjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3Mi
+wtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDEx
+NjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2Mz
+ExNDMsMTk1NDg5NzgxNSwtMTYxNzY1NzkyMywtNjU2Mzk3NjU0
+LDkyNjUwMTMxN119
 -->
