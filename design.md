@@ -211,9 +211,17 @@ bQTL
 ## data files
 data/
 - genotype/
+	- data/
+	- result/
 - gene_expression/
+	- data/
+	- result/
 - cis_eqtl/
+	- data/
+	- result/
 - network/
+	- data/
+	- result/
 
 ## setting files
 settings/
@@ -701,11 +709,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjQyMzY2NCwtMTU0MTMzNjkzNiwtNj
-UyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYy
-NjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OC
-wtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwx
-NTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzNDU3MDAzODcsMjc1MD
-Y5OTIxLC03NDk2MzExNDMsMTk1NDg5NzgxNSwtMTYxNzY1Nzky
-MywtNjU2Mzk3NjU0XX0=
+eyJoaXN0b3J5IjpbMTEyMTg0MDg0OCwtNDY2NDIzNjY0LC0xNT
+QxMzM2OTM2LC02NTI1NTcwMCwtOTc3MzAxMzI2LC0yMjU0NjU4
+OTAsLTYyNjQ0NjI2NiwtMTM2MDAxODA2MSwtMTk1ODIxNzUxMC
+wtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0xODk5ODIzNjA1LC0y
+MDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MTYwMjc3NiwtMTM0NT
+cwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0MywxOTU0ODk3ODE1
+LC0xNjE3NjU3OTIzXX0=
 -->
