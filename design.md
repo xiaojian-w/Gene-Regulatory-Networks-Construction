@@ -255,22 +255,27 @@ script/
 
 | Index | Path | Name| Format|
 |--|--| --|--|
-| 1 | data/genotype/ | clean_genotype.ped|1|
+| 1 | data/genotype/ | clean_genotype.ped|.ped|
 | 2 | data/genotype/ |  ||
 | 3 |  | ||
-
-### Data Format
-
-#### .ped File
-#### .map File
-####  .maf File
-#### . 
 
 ### Data Flow
 
 | Step | Input | Output |
 |--|--| --|
 | Genotype Preprocess | 1,2 | 3|
+
+### Data Format
+
+#### .ped File
+#### .map File
+####  .maf File
+#### .ge File
+#### .gpos File
+ 
+
+
+
 
 
 
@@ -716,11 +721,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MzAwNzU0LC0yMTIzMzIwNDM0LC00Nj
-Y0MjM2NjQsLTE1NDEzMzY5MzYsLTY1MjU1NzAwLC05NzczMDEz
-MjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC
-0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4
-OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4NzA1MjczNiwxMTYxNj
-AyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OTkyMSwtNzQ5NjMxMTQz
-LDE5NTQ4OTc4MTVdfQ==
+eyJoaXN0b3J5IjpbLTM4NTc1MDUyOSwtMjEyMzMyMDQzNCwtND
+Y2NDIzNjY0LC0xNTQxMzM2OTM2LC02NTI1NTcwMCwtOTc3MzAx
+MzI2LC0yMjU0NjU4OTAsLTYyNjQ0NjI2NiwtMTM2MDAxODA2MS
+wtMTk1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0x
+ODk5ODIzNjA1LC0yMDg3MjcwNDAyLDE1ODcwNTI3MzYsMTE2MT
+YwMjc3NiwtMTM0NTcwMDM4NywyNzUwNjk5MjEsLTc0OTYzMTE0
+MywxOTU0ODk3ODE1XX0=
 -->
