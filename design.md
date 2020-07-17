@@ -259,6 +259,10 @@ script/
 | 2 | data/genotype/ |  ||
 | 3 |  | ||
 
+### Data Format
+
+||
+
 ### Data Flow
 
 | Step | Input | Output |
@@ -709,11 +713,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMT
-U0MTMzNjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1
-ODkwLC02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MT
-AsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwt
-MjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNjE2MDI3NzYsLTEzND
-U3MDAzODcsMjc1MDY5OTIxLC03NDk2MzExNDMsMTk1NDg5Nzgx
-NSwtMTYxNzY1NzkyM119
+eyJoaXN0b3J5IjpbLTE3MjI0NzU1NjQsLTIxMjMzMjA0MzQsLT
+Q2NjQyMzY2NCwtMTU0MTMzNjkzNiwtNjUyNTU3MDAsLTk3NzMw
+MTMyNiwtMjI1NDY1ODkwLC02MjY0NDYyNjYsLTEzNjAwMTgwNj
+EsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3Miwt
+MTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2LDExNj
+E2MDI3NzYsLTEzNDU3MDAzODcsMjc1MDY5OTIxLC03NDk2MzEx
+NDMsMTk1NDg5NzgxNV19
 -->
