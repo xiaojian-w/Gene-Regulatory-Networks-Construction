@@ -205,19 +205,71 @@ bQTL
 7. Write comments for each file and each function according to the style guide
 
 ## Data Flow
+### File Design
+
+```r
+## data: original data files 
+## tmp: temporary output files will only be used for once
+## result: output files will be used in further steps
+data/
+- genotype/
+	- data/
+		- task_name/
+	- tmp/
+	- result/
+- gene_expression/
+	- data/
+		- task_name/
+	- tmp/
+	- result/
+- cis_eqtl/
+	- tmp/
+		- task_name/
+	- result/
+		- task_name/
+- network/
+	- task_name/
+		- tmp/
+		- result/
+settings/
+- config.conf
+
+# code files
+# `task_name/` folder contain the specific code for a specific task, like `TCGA/` or `GTEx`
+script/
+- setting_control.r
+- system_test.r
+- downloader.r
+- file_management.r
+- pallel_compute_helper.r
+- preprocess/
+	- task_name/
+		- xxx_preprocess.r
+	- gexp_preprocess.r
+	- genotype_preprocess.r
+	- match_preprocess.r
+- cis_eqtl_analysis/
+	- cis_eqtl.r
+- network_analysis/
+	- network_anlaysis.r
+- main.r
+
+
+
+```
 
 ### Data structure
+
+| Index | Path | Name| |
+|--|--| --|--|
+| 1 |  | |
+
 
 
 
 ## Detailed Design
 
 
-
-
-
-
-```
 
 ### Setting File
 
@@ -656,11 +708,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI5NDA1MjQsLTE1NDEzMzY5MzYsLT
-Y1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2
-MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4ND
-gsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIs
-MTU4NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NT
-A2OTkyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5
-MjMsLTY1NjM5NzY1NF19
+eyJoaXN0b3J5IjpbMzQ5OTYwOTcsLTE1NDEzMzY5MzYsLTY1Mj
+U1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2
+LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLT
+E4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIsMTU4
+NzA1MjczNiwxMTYxNjAyNzc2LC0xMzQ1NzAwMzg3LDI3NTA2OT
+kyMSwtNzQ5NjMxMTQzLDE5NTQ4OTc4MTUsLTE2MTc2NTc5MjMs
+LTY1NjM5NzY1NF19
 -->
