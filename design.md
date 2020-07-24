@@ -50,7 +50,8 @@ Main steps are as following:
 ```bash
 config [-l SECTION.PARAM][-m SECTION.PARAM VALUE]
 ```
--l: se
+-l: list parameter value (section name may not neccesary)
+-m: modify parameter value under a given section
 
 ## Basic Structure
 
@@ -648,7 +649,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzg5MDE3NzYsMjEwOTQxMDcyMCwzOT
+eyJoaXN0b3J5IjpbLTE0MTc2OTA5MzUsMjEwOTQxMDcyMCwzOT
 UyMzA1NTQsMjI5MjM2MTk2LDE4MjI2NzA2NzIsNzI3NDAwMTYy
 LC0xNDg3MjY2MzIzLC0zODU3NTA1MjksLTIxMjMzMjA0MzQsLT
 Q2NjQyMzY2NCwtMTU0MTMzNjkzNiwtNjUyNTU3MDAsLTk3NzMw
