@@ -47,9 +47,7 @@ Main steps are as following:
 
 ### Config
 
-Set config
-```bash
-```
+Get value from config file 
 
 ## Basic Structure
 
@@ -647,11 +645,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgyMjE3MTcsMzk1MjMwNTU0LDIyOT
-IzNjE5NiwxODIyNjcwNjcyLDcyNzQwMDE2MiwtMTQ4NzI2NjMy
-MywtMzg1NzUwNTI5LC0yMTIzMzIwNDM0LC00NjY0MjM2NjQsLT
-E1NDEzMzY5MzYsLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2
-NTg5MCwtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NT
-EwLC05NjQ1NDc4NDgsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUs
-LTIwODcyNzA0MDJdfQ==
+eyJoaXN0b3J5IjpbMjEwOTQxMDcyMCwzOTUyMzA1NTQsMjI5Mj
+M2MTk2LDE4MjI2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIz
+LC0zODU3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMT
+U0MTMzNjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1
+ODkwLC02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MT
+AsLTk2NDU0Nzg0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwt
+MjA4NzI3MDQwMl19
 -->
