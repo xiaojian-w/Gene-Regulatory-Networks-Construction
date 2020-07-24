@@ -48,7 +48,7 @@ Main steps are as following:
 ### Config
 
 ```bash
-config [-l SECTION.PARAM][-m SECTION.PARAM VALUE]
+config [-l [SECTION,]PARAM][-m [SECTION,]PARAM VALUE]
 ```
 -l: list parameter value (section name may not necessary)
 -m: modify parameter value (section name may not necessary)
@@ -56,7 +56,7 @@ config [-l SECTION.PARAM][-m SECTION.PARAM VALUE]
 ### Genotype Preprocess
 
 ```
-gen
+geno-prep
 ```
 
 ## Basic Structure
@@ -655,11 +655,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzc1MjY0NCwyMTA5NDEwNzIwLDM5NT
-IzMDU1NCwyMjkyMzYxOTYsMTgyMjY3MDY3Miw3Mjc0MDAxNjIs
-LTE0ODcyNjYzMjMsLTM4NTc1MDUyOSwtMjEyMzMyMDQzNCwtND
-Y2NDIzNjY0LC0xNTQxMzM2OTM2LC02NTI1NTcwMCwtOTc3MzAx
-MzI2LC0yMjU0NjU4OTAsLTYyNjQ0NjI2NiwtMTM2MDAxODA2MS
-wtMTk1ODIxNzUxMCwtOTY0NTQ3ODQ4LC0xODE0NTIzNzcyLC0x
-ODk5ODIzNjA1XX0=
+eyJoaXN0b3J5IjpbMjA5NTI3NTgxOSwtOTkzNzUyNjQ0LDIxMD
+k0MTA3MjAsMzk1MjMwNTU0LDIyOTIzNjE5NiwxODIyNjcwNjcy
+LDcyNzQwMDE2MiwtMTQ4NzI2NjMyMywtMzg1NzUwNTI5LC0yMT
+IzMzIwNDM0LC00NjY0MjM2NjQsLTE1NDEzMzY5MzYsLTY1MjU1
+NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2MjY2LC
+0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4NDgsLTE4
+MTQ1MjM3NzJdfQ==
 -->
