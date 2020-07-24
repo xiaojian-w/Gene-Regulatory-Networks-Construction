@@ -31,93 +31,6 @@ Main steps are as following:
 2. Separate Network Construction Step from Preprocess Steps so as to allow the users to preprocess the data themselves;
 3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
 
-### User Interface
-####  1. Prepare Data
-- gene expression 
-- genotype data 
-- annotation (separate for gene and snp)
-
-### 2. Prepare Setting File
-
-- one file is enough
-	- preprocess gene
-	- genotype
-	- network
-	
-.yml
-
-```par
-filepath: ./
-genotypename: example.geno
-snpname: example.snp
-indivname: example.ind
-evecoutname: example.pca.evec
-evaloutname: example.eval
-altnormstyle: NO
-numoutevec: 2
-numoutlieriter: 5
-numoutlierevec: 2
-outliersigmathresh: 6.0
-qtmode: 0
-```
-provide default file
-
-#### change settings
-```bash
-programm -change_settings --parameter value
-```
-#### lookup settings
-```bash
-programm -show_settings  --parameter
-```
-
-### 3 or 5.  Match genotype and geneexp ?
-? not sure before or after
-user provide sample ids ?
-```bash
-tnet geno_geneexp_match 
-```
-
-### 4.  Preprocess Genotype Data
-
-```bash
-tnet -preprocess_genotype --setting1 v1 --setting2
-```
-
-### 5. Preprocess Gene Data
-
-```bash
-tnet -preprocess_gene_exp --setting1 v1 --setting2
-```
-### 6. Control Covariates & Population Structure
-
-```bash
-tnet control_cov
-```
-
-### 7. Cis-eQTL
-
-```bash
-tnet cis-eQTL
-- range
-- type
-- number of cpu
-- parallel?
-```
-estimate wall time
-
-### 8. Network
-
-```
-tnet network_analysis
-- number of gene
-- number of bootstraps 
-```
-
- ```
- tnet summary
-```
-
 
 
 
@@ -129,6 +42,10 @@ tnet network_analysis
  - collaboration: github
 
 # Architecture Design
+
+## User Interface
+
+
 
 ## Basic Structure
 
@@ -726,11 +643,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYwNzcyOTAsMjI5MjM2MTk2LDE4Mj
-I2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zODU3NTA1
-MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMzNjkzNi
-wtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0
-NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nz
-g0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQw
-MiwxNTg3MDUyNzM2XX0=
+eyJoaXN0b3J5IjpbMzk1MjMwNTU0LDIyOTIzNjE5NiwxODIyNj
+cwNjcyLDcyNzQwMDE2MiwtMTQ4NzI2NjMyMywtMzg1NzUwNTI5
+LC0yMTIzMzIwNDM0LC00NjY0MjM2NjQsLTE1NDEzMzY5MzYsLT
+Y1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MCwtNjI2NDQ2
+MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05NjQ1NDc4ND
+gsLTE4MTQ1MjM3NzIsLTE4OTk4MjM2MDUsLTIwODcyNzA0MDIs
+MTU4NzA1MjczNl19
 -->
