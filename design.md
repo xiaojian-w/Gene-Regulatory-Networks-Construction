@@ -31,8 +31,7 @@ Main steps are as following:
 2. Separate Network Construction Step from Preprocess Steps so as to allow the users to preprocess the data themselves;
 3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
 
-### User Executing Steps
-
+### User Interface
 ####  1. Prepare Data
 - gene expression 
 - genotype data 
@@ -727,11 +726,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MjM2MTk2LDE4MjI2NzA2NzIsNzI3ND
-AwMTYyLC0xNDg3MjY2MzIzLC0zODU3NTA1MjksLTIxMjMzMjA0
-MzQsLTQ2NjQyMzY2NCwtMTU0MTMzNjkzNiwtNjUyNTU3MDAsLT
-k3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0NDYyNjYsLTEzNjAw
-MTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nzg0OCwtMTgxNDUyMz
-c3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQwMiwxNTg3MDUyNzM2
-LDExNjE2MDI3NzZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTYwNzcyOTAsMjI5MjM2MTk2LDE4Mj
+I2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zODU3NTA1
+MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMzNjkzNi
+wtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC02MjY0
+NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2NDU0Nz
+g0OCwtMTgxNDUyMzc3MiwtMTg5OTgyMzYwNSwtMjA4NzI3MDQw
+MiwxNTg3MDUyNzM2XX0=
 -->
