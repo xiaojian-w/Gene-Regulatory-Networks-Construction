@@ -58,6 +58,10 @@ config [-l [SECTION,]PARAM][-m [SECTION,]PARAM VALUE]
 ```
 geno-prep
 ```
+### Cis-eQTL Analysis
+```
+
+```
 
 ## Basic Structure
 
@@ -609,7 +613,7 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzEwMzMxOCwyMDk1Mjc1ODE5LC05OT
+eyJoaXN0b3J5IjpbLTY5MTM0MTAzMywyMDk1Mjc1ODE5LC05OT
 M3NTI2NDQsMjEwOTQxMDcyMCwzOTUyMzA1NTQsMjI5MjM2MTk2
 LDE4MjI2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zOD
 U3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMz
