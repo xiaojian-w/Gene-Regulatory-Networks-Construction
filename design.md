@@ -155,40 +155,12 @@ script/
 - gexp-prep/
 - network/
 main.sh # main interface 
+## Interface for different process
 cis_portal.sh 
-geno_prep 
-
-
-
+geno_prep_portal.sh
+gexp_prep_portal.sh 
+network_portal.sh
 ```
-
-### Data summary
-
-| Index | Path | Name| Format|
-|--|--| --|--|
-| 1 | data/genotype/ | clean_genotype.ped|.ped|
-| 2 | data/genotype/ |  ||
-| 3 |  | ||
-
-### Data Flow
-
-| Step | Input | Output |
-|--|--| --|
-| Genotype Preprocess | 1,2 | 3|
-
-### Data Format
-
-#### .ped File
-#### .map File
-####  .maf File
-#### .ge File
-#### .gpos File
- 
-
-
-
-
-
 
 
 ## Detailed Design
@@ -637,11 +609,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ1MzY3OTIsMjA5NTI3NTgxOSwtOT
-kzNzUyNjQ0LDIxMDk0MTA3MjAsMzk1MjMwNTU0LDIyOTIzNjE5
-NiwxODIyNjcwNjcyLDcyNzQwMDE2MiwtMTQ4NzI2NjMyMywtMz
-g1NzUwNTI5LC0yMTIzMzIwNDM0LC00NjY0MjM2NjQsLTE1NDEz
-MzY5MzYsLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MC
-wtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05
-NjQ1NDc4NDhdfQ==
+eyJoaXN0b3J5IjpbLTI1NzEwMzMxOCwyMDk1Mjc1ODE5LC05OT
+M3NTI2NDQsMjEwOTQxMDcyMCwzOTUyMzA1NTQsMjI5MjM2MTk2
+LDE4MjI2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zOD
+U3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMz
+NjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC
+02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2
+NDU0Nzg0OF19
 -->
