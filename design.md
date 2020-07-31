@@ -59,8 +59,24 @@ config [-l [SECTION,]PARAM][-m [SECTION,]PARAM VALUE]
 geno-prep
 ```
 ### Cis-eQTL Analysis
-```
 
+**Usage**
+```bash
+  cis-eqtl [OPTION VAL] ...
+  ```
+**Description**
+```
+  --alpha | -a			significant level for cis-eQTL
+  --ncis NCIS			maximum number of cis-eQTL for each gene
+  --maxcor MAX_COR		maximum corr. coeff. b/w cis-eQTL of same gene
+  --nperms N_PERMS		numer of permutations
+  --upstream UP_STREAM		upstream region to flank the genetic region 
+  --downstram DOWN_STREAM	downstream region to flank the genetic region
+  --map MAP_FILE		snps map file path
+  --maf MAF_FILE		snps maf file path
+  --gexp GEXP_FILE		gene expression file path
+  --geno GENO_FILE		genotype file path
+  --help | -h			user guide
 ```
 
 ## Basic Structure
@@ -613,11 +629,11 @@ coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTM0MTAzMywyMDk1Mjc1ODE5LC05OT
-M3NTI2NDQsMjEwOTQxMDcyMCwzOTUyMzA1NTQsMjI5MjM2MTk2
-LDE4MjI2NzA2NzIsNzI3NDAwMTYyLC0xNDg3MjY2MzIzLC0zOD
-U3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQyMzY2NCwtMTU0MTMz
-NjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNiwtMjI1NDY1ODkwLC
-02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5NTgyMTc1MTAsLTk2
-NDU0Nzg0OF19
+eyJoaXN0b3J5IjpbLTE4MTg0NjM0MjgsMjA5NTI3NTgxOSwtOT
+kzNzUyNjQ0LDIxMDk0MTA3MjAsMzk1MjMwNTU0LDIyOTIzNjE5
+NiwxODIyNjcwNjcyLDcyNzQwMDE2MiwtMTQ4NzI2NjMyMywtMz
+g1NzUwNTI5LC0yMTIzMzIwNDM0LC00NjY0MjM2NjQsLTE1NDEz
+MzY5MzYsLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MC
+wtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05
+NjQ1NDc4NDhdfQ==
 -->
