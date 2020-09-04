@@ -17,7 +17,17 @@ Main steps are as following:
 - Cis-eQTL Analysis
 	- Common e-QTL analysis
 	- Low-Frequency Cis-eQTL Analysis
-	- Rare Cis-eQTL Analysis 
+	- Rare Cis-eQTL Analysiswill contain following functions:
+- function 1
+- function 2
+- function 3
+- etc...
+
+
+
+### Function 1
+
+#### Input 
 	-  Combined Common, Low-Frequency, and Rare eQTL Results
 - Network Analysis
 	- Network Analysis
@@ -32,7 +42,26 @@ Main steps are as following:
 3. Provide a function for the preprocess steps of TCGA & GTEx respecctively.
 
 
+format:
+- example
+	```r
+		### 
+		### 
+		```
+	
+#### Process
 
+Breif introduction to the algorithm
+
+#### Output
+- format:
+- example
+	```r
+		### 
+		### 
+		```
+
+### Function 2
 
 ## Environment Requirement
 
@@ -40,6 +69,7 @@ Main steps are as following:
  - development language: R/shell
  - development platform: 
  - collaboration: github
+ - Test:
 
 # Architecture Design
 
@@ -108,14 +138,34 @@ Four main parts:
 sequenceDiagram
 Interface Controller ->> Setting Controller: check paramter or settings 
 Setting Controller -->> Interface Controller: return paramter status
-Interface Controller ->> File Management: check input file valid or not
+Interface Controller ->> File ManagementStructure Design
+
+### File structure
+- directory 1
+	- directory 2
+	- 
+### Class & Function Structure
+
+
+## Workflow Design
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: cCheck input file valid or not
 File Management -->> Interface Controller: return file status
 Interface Controller ->> Execute Function: input paramter
 Execute Function -->> Interface Controller: return function status
 
 Interface Controller ->> File Management: check output file valid or not
 
-File Management -->> Interface Controller: return file status
+File Management -->> Interface Controller: return file statusg with John...
+Alice->John: Yes... John, how are you?
 ```
 
 
@@ -627,13 +677,16 @@ tspls -> function(){}
 bootstrapAnalysis -> function(adj_matrix_file,
 coef_matrix_file,nboots,nnodes,n_cores,wall_time){}
 ```
+### R programming  convention
 
+Google's R style Guide:
+[http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html](http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NjM0MjgsMjA5NTI3NTgxOSwtOT
-kzNzUyNjQ0LDIxMDk0MTA3MjAsMzk1MjMwNTU0LDIyOTIzNjE5
-NiwxODIyNjcwNjcyLDcyNzQwMDE2MiwtMTQ4NzI2NjMyMywtMz
-g1NzUwNTI5LC0yMTIzMzIwNDM0LC00NjY0MjM2NjQsLTE1NDEz
-MzY5MzYsLTY1MjU1NzAwLC05NzczMDEzMjYsLTIyNTQ2NTg5MC
-wtNjI2NDQ2MjY2LC0xMzYwMDE4MDYxLC0xOTU4MjE3NTEwLC05
-NjQ1NDc4NDhdfQ==
+eyJoaXN0b3J5IjpbLTg4NTI2MDA5MSwtMTgxODQ2MzQyOCwyMD
+k1Mjc1ODE5LC05OTM3NTI2NDQsMjEwOTQxMDcyMCwzOTUyMzA1
+NTQsMjI5MjM2MTk2LDE4MjI2NzA2NzIsNzI3NDAwMTYyLC0xND
+g3MjY2MzIzLC0zODU3NTA1MjksLTIxMjMzMjA0MzQsLTQ2NjQy
+MzY2NCwtMTU0MTMzNjkzNiwtNjUyNTU3MDAsLTk3NzMwMTMyNi
+wtMjI1NDY1ODkwLC02MjY0NDYyNjYsLTEzNjAwMTgwNjEsLTE5
+NTgyMTc1MTBdfQ==
 -->
